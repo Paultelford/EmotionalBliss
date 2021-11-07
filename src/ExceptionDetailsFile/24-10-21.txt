@@ -1,0 +1,24 @@
+-----------Exception Details on  24/10/2021 01:13:15-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24/10/2021 01:13:15
+
+Error Line No : line 68
+
+Error Message: SmtpException
+
+Exception Type: System.Net.Mail.SmtpException
+
+Error Location : Failure sending mail.
+
+ Error Page Url: http://localhost:56871/shop/PaymentSuccess.aspx?PaymentID=ch_3JnuKqEDDHPZ10y80pZXM0j9&OrderID=27672
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

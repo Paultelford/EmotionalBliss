@@ -1,0 +1,48 @@
+-----------Exception Details on  1/7/2021 5:03:05 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/7/2021 5:03:05 PM
+
+Error Line No : line 82
+
+Error Message: ConfigurationErrorsException
+
+Exception Type: System.Configuration.ConfigurationErrorsException
+
+Error Location : The value of the property 'port' cannot be parsed. The error is: xxxx is not a valid value for Int32. (E:\IIS-PUBLISH\LIVE\eb.gatistavamsoftech.com\web.config line 134)
+
+ Error Page Url: http://27.54.169.89:7576/shop/PaymentSuccess.aspx?guid=18685&paymentId=PAYID-L73NYOA28533869R90826509&token=EC-2K426948NG591401N&PayerID=4KCAJUSAKGAP6
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  1/7/2021 5:07:17 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 1/7/2021 5:07:17 PM
+
+Error Line No : line 82
+
+Error Message: ConfigurationErrorsException
+
+Exception Type: System.Configuration.ConfigurationErrorsException
+
+Error Location : The value of the property 'port' cannot be parsed. The error is: xxxx is not a valid value for Int32. (E:\IIS-PUBLISH\LIVE\eb.gatistavamsoftech.com\web.config line 134)
+
+ Error Page Url: http://27.54.169.89:7576/shop/PaymentSuccess.aspx?guid=18685&paymentId=PAYID-L73NYOA28533869R90826509&token=EC-2K426948NG591401N&PayerID=4KCAJUSAKGAP6
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings spanX="250" spanY="40" centerX="300" centerY="175" distanceValue="0" perspectiveRatio="0.3" minimumscale=".1" turningspeed="4" rotationKind="1" useFocalBlur="1" focalBlurValue=".6" useMotionBlur="1" motionBlurValue=".25" useFadeOnMouseOver="1" mouseOverAlphaValue=".5" useReflection="1" reflectionAlphaValue=".5"/>
+
+<photos>
+	<photo imageURL="Graphs/Graph1.swf" captionText="80Hz Constant Mode"/>
+<photo imageURL="Graphs/Graph9.swf" captionText="Pulse Mode"/>
+		<photo imageURL="Graphs/Graph8.swf" captionText="Tiangle Mode"/>
+		<photo imageURL="Graphs/Graph7.swf" captionText="Saw Mode"/>
+		<photo imageURL="Graphs/Graph6.swf" captionText="150Hz Pulse Mode"/>
+		<photo imageURL="Graphs/Graph5.swf" captionText="120Hz Pulse Mode"/>
+		<photo imageURL="Graphs/Graph4.swf" captionText="80Hz Pulse Mode"/>
+		<photo imageURL="Graphs/Graph3.swf" captionText="150Hz Constant Mode"/>
+		<photo imageURL="Graphs/Graph2.swf" captionText="120Hz Constant Mode"/>
+</photos>

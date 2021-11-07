@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblA1" xml:space="preserve">
+    <value>U kunt zelf kiezen hoe u wilt bestellen. Per internet of per telefoon.&lt;br&gt;
+Uw bestelling zal met zorg worden uitgevoerd en discreet worden geleverd zodra uw betaling is ontvangen op de bankrekening van Emotional Bliss.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Per Internet&lt;/b&gt;&lt;br&gt;
+Gemakkelijk, snel, discreet en veilig. Volgt u de instructies in onze webwinkel, plaatst u de producten die u wenst te ontvangen in het winkelmandje en kies vervolgens uw wijze van betalen. 
+Na ontvangst van uw gegevens ontvangt u automatisch per e-mail bericht over de voortgang en de status van uw bestelling. 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Per telefoon&lt;/b&gt;&lt;br&gt;
+Tijdens kantooruren (van 09:00 – 17:00 uur) kunt u uw bestelling telefonisch plaatsen. 
+Wij vragen u tijdens het gesprek om uw bank- en/of creditcard gegevens + persoonsgegevens bij de hand te hebben zodat Emotional Bliss uw bestelling correct kan invoeren. U ontvangt uw persoonlijke referentienummer / ordernummer na de plaatsing van uw order. Bewaar dit nummer goed zodat wij u in geval van opvolgende correspondentie snel van dienst kunnen zijn. &lt;br&gt;
+Ons telefoonnummer +31 (0)75 - 622 85 37 
+
+</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA10" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblA11" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblA12" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblA13" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblA14" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblA2" xml:space="preserve">
+    <value>Emotional Bliss geeft u de mogelijkheid, afhankelijk of u &lt;b&gt;Nederland&lt;/b&gt; of &lt;b&gt;Belgie&lt;/b&gt; woont, te kiezen voor een wijze van betaling die u het prettigst vindt en die voor u vertrouwd en gemakkelijk is.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Overboeking (Belgie)&lt;/b&gt;&lt;br&gt;
+U kunt het totaalbedrag overboeken op onze Belgische bankrekening 733.019.823.291 (KBC Bank te Meer). Vermeld s.v.p. het factuurnummer. Zodra wij het bedrag van u hebben ontvangen hebben sturen wij u uw bestelling per TNT Post toe.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Gebruik uw creditcard (Nederland &amp; Belgie)&lt;/b&gt;&lt;br&gt;
+Door te kiezen voor de optie “creditcardbetaling” kunt u snel, eenvoudig en &lt;b&gt;veilig betalen&lt;/b&gt; met uw creditcard. Emotional Bliss accepteert Visa en Mastercard. U ontvangt automatisch per e-mail bericht over de voortgang en de status van uw bestelling. De website van Emotional Bliss maakt gebruik van SSL encryptie (128 bits) voor het online verzamelen van of het overbrengen van creditcard informatie. Deze voorziening zorgt voor beveiliging en afscherming van uw en onze gegevens. Deze internationaal geldende beveiligingssleutel wordt ook gebruikt door bankinstellingen als u bijvoorbeeld bankiert via Internet.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Afschrijving / eenmalige machtiging van uw bankrekening of girorekening (Nederland)&lt;/b&gt;&lt;br&gt;
+Door te kiezen voor de optie “bank-girorekening”, geeft u toestemming voor een éénmalige (bank)machtiging. Nadat de incasso door uw bank is geaccepteerd en het bedrag van uw rekening is afgeschreven ontvangt u automatisch bericht per e-mail over de voortgang en de status van uw bestelling. De website van Emotional Bliss maakt gebruik van SSL encryptie (128 bits) voor het online verzamelen van of het overbrengen van rekeninggegevens. Deze voorziening zorgt voor beveiliging en afscherming van uw en onze gegevens. Deze internationaal geldende beveiligingssleutel wordt ook gebruikt door bankinstellingen als u bijvoorbeeld bankiert via Internet.
+&lt;br&gt;
+&lt;table border="0"&gt;
+&lt;tr&gt;
+&lt;td width="100"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&lt;img src ='images/ideallogo.jpg'&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;b&gt;iDEAL (Nederland) &lt;/b&gt;&lt;br&gt;
+iDEAL is een gezamenlijk initiatief van Rabobank, ABN AMRO, ING Bank en Postbank. Met iDEAL kunt u vertrouwd, veilig en gemakkelijk uw online aankopen afrekenen. U rekent af in uw vertrouwde internet betaalomgeving van uw eigen bank. Als internetbankierder kunt u direct gebruik maken van iDEAL, zonder dat u zich daarvoor hoeft aan te melden.
+&lt;br&gt;&lt;br&gt;
+Kunt u betalen met iDEAL?
+Iedereen met Internetbankieren bij één van de deelnemende banken kan zonder aanmelding direct met iDEAL betalen. U betaalt binnen de vertrouwde betaalomgeving van uw bank en gebruikt daarbij dezelfde hulpmiddelen als bij het Internetbankieren:&lt;br&gt;
+•Random Reader bij Rabobank&lt;br&gt;
+•SMS-Tan bij Postbank&lt;br&gt;
+•e.dentifier bij ABN AMRO.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Hoe werkt iDEAL?&lt;/b&gt;&lt;br&gt;
+Om uw bestelling af te rekenen, klikt u op het iDEAL logo tijdens uw bestelling. Kies hierna uw bank en u ziet daar dan de betaling al klaar staan. U ondertekent zoals u dat gewend bent bij Internetbankieren bij uw eigen bank. Een betaling met iDEAL wordt direct afgeschreven. Wij ontvangen online een bevestiging, zodat een snelle levering mogelijk is.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Zijn er kosten verbonden aan het betalen met iDEAL?&lt;/b&gt;&lt;br&gt;
+U kunt bij Emotional Bliss gratis met iDEAL betalen.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Waar zie ik dat er met iDEAL betaald is?&lt;/b&gt;&lt;br&gt;
+Na elke betaling met iDEAL ziet u een bevestiging die u kunt afdrukken. Ook binnen internetbankieren en op uw rekeningafschrift is elke betaling met iDEAL zichtbaar.</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA3" xml:space="preserve">
+    <value>&lt;b&gt;In Nederland&lt;/b&gt;&lt;br&gt;
+Verzending per TNT-Post&lt;br&gt;
+(zie ook artikel 4 van de Algemene Verkoop Voorwaarden) &lt;br&gt;
+&lt;br&gt;&lt;br&gt;
+Emotional Bliss streeft ernaar uw bestelling zo snel mogelijk te leveren. De vaste verzenddagen zijn dinsdag en vrijdag. Wanneer u met iDEAL of creditcard betaald is de levertijd ± 3-5 werkdagen. Houdt u rekening met een levertijd van ± 5-7 werkdagen indien u gebruik maakt van de eenmalige machtiging. U krijgt automatisch bericht per e-mail wanneer het pakje onderweg is en u kunt het pakje zelf traceren met behulp van uw eigen code. 
+&lt;br&gt;&lt;br&gt;
+* Indien er tijdens het plaatsen van de bestelling een foutief e-mail adres wordt opgegeven en de bestelling kan door uw afwezigheid niet worden afgeleverd op het opgegeven adres dan zullen de extra portokosten die hieruit ontstaan ten laste van de klant zijn. 
+&lt;br&gt;&lt;br&gt;
+* In het geval Emotional Bliss uw pakket van TNT Post retour krijgt als gevolg van weigering, onbestelbaar of pakket niet afgehaald bij postkantoor zijn de kosten voor het retour zenden voor uw rekening evenals de kosten voor het opnieuw toesturen. 
+&lt;br&gt;&lt;br&gt;
+* Emotional Bliss is niet verantwoordelijk voor terugbetalingen of vervanging bij orders waarvan het tracking en tracing systeem ontvangst van de zending heeft bevestigd. Indien dit laatstgenoemde het geval is, verzoeken wij u rechtstreeks contact op te nemen met de transporteur.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;In Belgie&lt;/b&gt;&lt;br&gt;
+Verzending per Geopost, overgenomen van TNT Post&lt;br&gt;
+(zie ook artikel 4 van de Algemene Verkoop Voorwaarden) 
+&lt;br&gt;&lt;br&gt;
+Emotional Bliss streeft ernaar uw bestelling zo snel mogelijk te leveren. Wanneer u met creditcard betaald is de levertijd ± 3-5 werkdagen. Houdt u rekening met een levertijd van ± 5-7 werkdagen indien u het bedrag naar de KBC bank overboekt. U krijgt automatisch bericht per e-mail wanneer het pakje onderweg is en u kunt het pakje zelf traceren met behulp van uw eigen code. 
+&lt;br&gt;&lt;br&gt;
+* zie hierboven omschreven bij Nederland 
+
+</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA4" xml:space="preserve">
+    <value>Emotional Bliss streeft ernaar de veiligheid van uw informatie maximaal te waarborgen. Om onthulling of onbevoegd toegang te verhinderen, handhaven wij gegevensnauwkeurigheid en verzekeren wij het gepaste gebruik van informatie. Emotional Bliss maakt gebruik van veilige apparatuur en hanteert vanuit het management voorgeschreven procedures om alle informatie te beschermen. Om uw privacy te garanderen staat de website van Emotional Bliss op een secure server. U kunt op het logo van XRampSSL klikken om dit te controleren. Dit betekent dat de communicatie tussen uw browser en onze site beveiligd is en niemand anders uw surfgedrag kan zien. Wij maken gebruik van SSL encryptie voor het verzamelen van of het overbrengen van gevoelige gegevens zoals creditcard informatie. Onze inspanningen om creditcard fraude te voorkomen helpen uw financiële gegevens te beschermen. 
+</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA5" xml:space="preserve">
+    <value>&lt;b&gt;***** 12 maanden garantie na aankoopdatum *****&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+Emotional bliss streeft ernaar dat elke klant 100% tevreden zal zijn met de aankoop.&lt;br&gt;
+Emotional Bliss controleert en test alle producten alvorens deze worden verzonden.&lt;br&gt;
+Emotional Bliss garandeert dat alle producten bij uitlevering van goede kwaliteit zijn.&lt;br&gt;
+In het geval van een fabricagefout verwijzen wij u naar de sectie ´Retourneren`.&lt;br&gt;
+(zie ook artikel 13 van de Algemene Verkoop Voorwaarden)
+
+</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA6" xml:space="preserve">
+    <value>Indien er een defect is ontstaan toe te schrijven aan een materiaal- of productiefout, kunt u ons tot &lt;b&gt;12 maanden na aankoopdatum&lt;/b&gt; hiervan op de hoogte brengen waarna wij, na inspectie, het defecte onderdeel of product zullen vervangen.
+&lt;br&gt;&lt;br&gt;
+Om een aanvraag in te dienen voor een retourzending stuurt u &lt;b&gt;vooraf&lt;/b&gt; een e-mail naar &lt;a href='mailto:klantenservice@emotionalbliss.nl'&gt;klantenservice(apestaartje)emotionalbliss.nl&lt;/a&gt; waarin u duidelijk uw naam en factuurnummer vermeldt en kort het probleem omschrijft. Wij zenden u vervolgens per e-mail instructies hoe u uw product hygiënisch aan ons mag retourneren. Tot vervanging kan pas worden overgegaan na ontvangst en inspectie van de producten. Ongefrankeerde zendingen of rembourszendingen worden uitsluitend in behandeling genomen mits hier vooraf schriftelijk toestemming voor is gegeven.&lt;br&gt;
+Onaangekondigde zendingen worden niet geaccepteerd en gaan retour afzender.&lt;br&gt;
+(zie ook artikel 14 van de Algemene Verkoop Voorwaarden)
+
+</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA7" xml:space="preserve">
+    <value>Mocht u nog vragen hebben dan kunt u contact opnemen met de klantenservice, per e-mail &lt;a href='mailto:klantenservice@emotionalbliss.nl'&gt;klantenservice(apestaartje)emotionalbliss.nl&lt;/a&gt; of telefonisch +31 (0)75 – 622 85 36 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;In verband met de vele geautomatiseerde ongewenste SPAM-berichten die wij dagelijks ontvangen hebben wij het @ weergegeven als (apestaartje).&lt;/b&gt;</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblA9" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEBFAQ" xml:space="preserve">
+    <value>Emotional Bliss - FAQ's &amp; De spelregels</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ1" xml:space="preserve">
+    <value>Hoe u kunt bestellen </value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ10" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQ11" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQ12" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQ13" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQ14" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQ2" xml:space="preserve">
+    <value>Welke betaalwijze u kiest </value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ3" xml:space="preserve">
+    <value>Verzending in Nederland &amp; Belgie </value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ4" xml:space="preserve">
+    <value>Persoonlijke gegevens </value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ5" xml:space="preserve">
+    <value>EB Garantie </value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ6" xml:space="preserve">
+    <value>Retourneren </value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ7" xml:space="preserve">
+    <value>Meer informatie </value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQ9" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>FAQ</value>
+    <comment>Text</comment>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="String10" xml:space="preserve">
+    <value>&lt;br&gt;</value>
+  </data>
+  <data name="String11" xml:space="preserve">
+    <value>&lt;img src ='images/ideallogo.jpg'&gt;</value>
+  </data>
+  <data name="String12" xml:space="preserve">
+    <value>&lt;br&gt;</value>
+  </data>
+  <data name="String13" xml:space="preserve">
+    <value>&lt;b&gt;iDEAL (Nederland) &lt;/b&gt;&lt;br&gt;</value>
+  </data>
+  <data name="String14" xml:space="preserve">
+    <value>iDEAL is een gezamenlijk initiatief van Rabobank, ABN AMRO, ING Bank en Postbank. Met iDEAL kunt u vertrouwd, veilig en gemakkelijk uw online aankopen afrekenen. U rekent af in uw vertrouwde internet betaalomgeving van uw eigen bank. Als internetbankierder kunt u direct gebruik maken van iDEAL, zonder dat u zich daarvoor hoeft aan te melden.</value>
+  </data>
+  <data name="String15" xml:space="preserve">
+    <value>&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="String16" xml:space="preserve">
+    <value>Kunt u betalen met iDEAL?</value>
+  </data>
+  <data name="String17" xml:space="preserve">
+    <value>Iedereen met Internetbankieren bij één van de deelnemende banken kan zonder aanmelding direct met iDEAL betalen. U betaalt binnen de vertrouwde betaalomgeving van uw bank en gebruikt daarbij dezelfde hulpmiddelen als bij het Internetbankieren:&lt;br&gt;</value>
+  </data>
+  <data name="String18" xml:space="preserve">
+    <value>•Random Reader bij Rabobank&lt;br&gt;</value>
+  </data>
+  <data name="String19" xml:space="preserve">
+    <value>•SMS-Tan bij Postbank&lt;br&gt;</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>&lt;b&gt;Overboeking (Belgie)&lt;/b&gt;&lt;br&gt;</value>
+  </data>
+  <data name="String20" xml:space="preserve">
+    <value>•e.dentifier bij ABN AMRO.</value>
+  </data>
+  <data name="String21" xml:space="preserve">
+    <value>&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="String22" xml:space="preserve">
+    <value>&lt;b&gt;Hoe werkt iDEAL?&lt;/b&gt;&lt;br&gt;</value>
+  </data>
+  <data name="String23" xml:space="preserve">
+    <value>Om uw bestelling af te rekenen, klikt u op het iDEAL logo tijdens uw bestelling. Kies hierna uw bank en u ziet daar dan de betaling al klaar staan. U ondertekent zoals u dat gewend bent bij Internetbankieren bij uw eigen bank. Een betaling met iDEAL wordt direct afgeschreven. Wij ontvangen online een bevestiging, zodat een snelle levering mogelijk is.</value>
+  </data>
+  <data name="String24" xml:space="preserve">
+    <value>&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="String25" xml:space="preserve">
+    <value>&lt;b&gt;Zijn er kosten verbonden aan het betalen met iDEAL?&lt;/b&gt;&lt;br&gt;</value>
+  </data>
+  <data name="String26" xml:space="preserve">
+    <value>U kunt bij Emotional Bliss gratis met iDEAL betalen.</value>
+  </data>
+  <data name="String27" xml:space="preserve">
+    <value>&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="String28" xml:space="preserve">
+    <value>&lt;b&gt;Waar zie ik dat er met iDEAL betaald is?&lt;/b&gt;&lt;br&gt;</value>
+  </data>
+  <data name="String29" xml:space="preserve">
+    <value>Na elke betaling met iDEAL ziet u een bevestiging die u kunt afdrukken. Ook binnen internetbankieren en op uw rekeningafschrift is elke betaling met iDEAL zichtbaar. </value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>U kunt het totaalbedrag overboeken op onze Belgische bankrekening 733.019.823.291 (KBC Bank te Meer). Vermeld s.v.p. het factuurnummer. Zodra wij het bedrag van u hebben ontvangen hebben sturen wij u uw bestelling per TNT Post toe.</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>&lt;b&gt;Gebruik uw creditcard (Nederland &amp; Belgie)&lt;/b&gt;&lt;br&gt;</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>Door te kiezen voor de optie “creditcardbetaling” kunt u snel, eenvoudig en &lt;b&gt;veilig betalen&lt;/b&gt; met uw creditcard. Emotional Bliss accepteert Visa en Mastercard. U ontvangt automatisch per e-mail bericht over de voortgang en de status van uw bestelling. De website van Emotional Bliss maakt gebruik van SSL encryptie (128 bits) voor het online verzamelen van of het overbrengen van creditcard informatie. Deze voorziening zorgt voor beveiliging en afscherming van uw en onze gegevens. Deze internationaal geldende beveiligingssleutel wordt ook gebruikt door bankinstellingen als u bijvoorbeeld bankiert via Internet.</value>
+  </data>
+  <data name="String7" xml:space="preserve">
+    <value>&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value>&lt;b&gt;Afschrijving / eenmalige machtiging van uw bankrekening of girorekening (Nederland)&lt;/b&gt;&lt;br&gt;</value>
+  </data>
+  <data name="String9" xml:space="preserve">
+    <value>Door te kiezen voor de optie “bank-girorekening”, geeft u toestemming voor een éénmalige (bank)machtiging. Nadat de incasso door uw bank is geaccepteerd en het bedrag van uw rekening is afgeschreven ontvangt u automatisch bericht per e-mail over de voortgang en de status van uw bestelling. De website van Emotional Bliss maakt gebruik van SSL encryptie (128 bits) voor het online verzamelen van of het overbrengen van rekeninggegevens. Deze voorziening zorgt voor beveiliging en afscherming van uw en onze gegevens. Deze internationaal geldende beveiligingssleutel wordt ook gebruikt door bankinstellingen als u bijvoorbeeld bankiert via Internet.</value>
+  </data>
+</root>

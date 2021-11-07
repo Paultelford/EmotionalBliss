@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblBody" xml:space="preserve">
+    <value>Our mission is to introduce intimate massagers to women around the world who have perhaps never used an intimate massager before who are dissatisfied with more traditional vibrators.
+&lt;br /&gt;&lt;br /&gt;
+Emotional Bliss was established in March 2001 to develop the next-generation intimate massagers to meet women’s specific needs and expectations. 
+&lt;br /&gt;&lt;br /&gt;
+Working with well-respected sex therapist Julia Cole, Relate and the BASRT (The British Association for Sexual and Relationship Therapy), we set out to create a range of intimate massagers that did more than simply look good. So many companies talk solely about design, but we decided to let function, shape and texture be our guides to creating our intimate massagers. Designers can produce visually inspiring products, but if they don’t work, what’s the point? 
+&lt;br /&gt;&lt;br /&gt;
+The collaboration with experts Julia Cole, Relate and the BASRT gave us the opportunity to create a range of products that focused on women’s key needs. So, we concentrate on stimulating the external nerve endings around the clitoris and vaginal lips, rather than internally, where most people believe the stimulation comes from - the infamous “G Spot”, for example, is a much-debated topic. What we do know for sure is that there are more nerve endings located between the clitoris and the anus on a woman than any other part of her body. 
+&lt;br /&gt;&lt;br /&gt;
+Knowledge and factual information is extremely important within a relationship. For this reason we have created the Emotional Bliss website where men and women can visit to begin to understand how and why their bodies work, both sexually and physically. With more knowledge and a greater understanding of your body you’ll achieve greater sexual fulfilment. Something we all deserve... 
+&lt;br /&gt;&lt;br /&gt;
+We hope that our intimate massagers will speak for themselves. Below you can read in more detail the challenges we faced creating the Emotional Bliss range of intimate massagers. </value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblChallenge" xml:space="preserve">
+    <value>The Challenge</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblChandraChallenge" xml:space="preserve">
+    <value>To create a rechargeable finger-fitting intimate massager to vibrate at 110Hz, producing a minimum of 1.5 hours of running time.</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblChandraResults" xml:space="preserve">
+    <value>Slightly larger than the Isis with a frequency fixed at 110Hz (+/- 10%). This produces a more intense vibration compared to the Isis, for those women who prefer more intense vibration. The Chandra is slightly louder than the Isis, but creates no more than a faint buzz.&lt;br&gt;
+It is fully rechargeable, providing between 1-2 hours of enjoyment. This is the perfect choice for the beginner or for use with your partner during lovemaking.</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblFemblossomChallenge" xml:space="preserve">
+    <value>To create intense stimulation throughout the whole vulva area, focusing on the clitoris and labia. Hand-held, requiring little movement to operate.</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblFemblossomResults" xml:space="preserve">
+    <value>The vibrating sensations are totally unique to the Femblossom. The curved shape enables stimulation of the clitoris and the vulva at the same time. You can use the tapered front to slide between the labia and directly onto the clitoris. </value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblHeader" xml:space="preserve">
+    <value>About Emotional Bliss</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblIntro" xml:space="preserve">
+    <value>Our mission is &lt;font face="Comic Sans MS"&gt;&lt;font color="#ffff00"&gt;&lt;font color="#ff0000"&gt;testing &lt;/font&gt;&lt;font color="#808000"&gt;testing&lt;/font&gt;&lt;/font&gt;&lt;font color="#808000"&gt; &lt;/font&gt;&lt;/font&gt;to introduce intimate massagers to women around the world who have perhaps never used an intimate massager before who are dissatisfied with more traditional vibrators. &lt;br /&gt;
+&lt;br /&gt;
+Emotional Bliss was established in March 2001 to develop the next-generation intimate massagers to meet women&amp;rsquo;s specific needs and expectations.  &lt;br /&gt;
+&lt;br /&gt;
+Working with well-respected sex therapist Julia Cole, Relate and the BASRT (The British Association for Sexual and Relationship Therapy), we set out to create a range of intimate massagers that did more than simply look good. So many companies talk solely about design, but we decided to let function, shape and texture be our guides to creating our intimate massagers. Designers can produce visually inspiring products, but if they don&amp;rsquo;t work, what&amp;rsquo;s the point?  &lt;br /&gt;
+&lt;br /&gt;
+The collaboration with experts Julia Cole, Relate and the BASRT gave us the opportunity to create a range of products that focused on women&amp;rsquo;s key needs. So, we concentrate on stimulating the external nerve endings around the clitoris and vaginal lips, rather than internally, where most people believe the stimulation comes from - the infamous &amp;ldquo;G Spot&amp;rdquo;, for example, is a much-debated topic. What we do know for sure is that there are more nerve endings located between the clitoris and the anus on a woman than any other part of her body.  &lt;br /&gt;
+&lt;br /&gt;
+Knowledge and factual information is extremely important within a relationship. For this reason we have created the Emotional Bliss website where men and women can visit to begin to understand how and why their bodies work, both sexually and physically. With more knowledge and a greater understanding of your body you&amp;rsquo;ll achieve greater sexual fulfilment. Something we all deserve...  &lt;br /&gt;
+&lt;br /&gt;
+We hope that our intimate massagers will speak for themselves. Below you can read in more detail the challenges we faced creating the Emotional Bliss range of intimate massagers.</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblIsisChallenge" xml:space="preserve">
+    <value>To create the smallest rechargeable finger-fitting intimate massager in the world, vibrating at 80Hz and producing a minimum of two hours running time.</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblIsisResults" xml:space="preserve">
+    <value>Not only designed for use on your own, but also with your partner as it’s supplied with three different bands to fit different finger sizes.&lt;br /&gt;
+The Isis has a fixed vibration of 80Hz (+/- 10%) - the proven frequency to stimulate orgasm. It’s fully rechargeable providing two-three hours of enjoyment and is practically silent. Isis is a perfect choice for the beginner or to enjoy with your partner during lovemaking. 
+</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblJasmineChallenge" xml:space="preserve">
+    <value>To create direct stimulation that enables you to focus on individual areas of the clitoris and labia.</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblJasmineResults" xml:space="preserve">
+    <value>The Jasmine provides direct stimulation to the clitoris and other areas of the vulva. The vibration is intense and its textured surface will heighten your pleasure as you rub or stroke your intimate massager against your erogenous zones. Elegant and comfortable to hold.</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblLubricants" xml:space="preserve">
+    <value>Lubricants</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblLubricantsChallenge" xml:space="preserve">
+    <value>The Emotional Bliss vibrator range is designed for external use and focuses on stimulating the nerve endings between the clitoris and anus.</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblLubricantsResults" xml:space="preserve">
+    <value>We couldn’t find a suitable lubricant on the market, so we decided to develop our own Silicon and Water Based Lubricant. Our lubricants are tasteless, odourless and are absorbed into your skin like a moisturiser. &lt;br&gt;
+Don’t forget the men in your lives…use the lubricant with the masturbation techniques described in the &lt;b&gt;‘one for the boys’&lt;/b&gt; section to put a smile on his face... </value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblResults" xml:space="preserve">
+    <value>The Results</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblWomoliaChallenge" xml:space="preserve">
+    <value>To create the ultimate in intimate massagers. &lt;br&gt;
+Hand-held and a slimline shape, the Womolia is angled so that women can pinpoint specific areas, such as the clitoris, vulva and finally the first 50mm at the entrance of the vagina known as the &lt;b&gt;“orgasmic platform”&lt;/b&gt;. </value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblWomoliaResults" xml:space="preserve">
+    <value>The Womolia is for women who like to be in total control of their pleasure. The angled shape and texture focuses on direct stimulation of the clitoris, while the textured sides vibrate, stimulating the labia. The tip of the vibrator is designed to stimulate the all-important &lt;strong&gt;&amp;ldquo;orgasmic platform&amp;rdquo;&lt;/strong&gt;. test</value>
+    <comment>Html</comment>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>About Us cd</value>
+    <comment>Text</comment>
+  </data>
+</root>

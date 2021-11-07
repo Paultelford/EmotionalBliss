@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblA1" xml:space="preserve">
+    <value>Our understanding of women’s arousal and orgasms has grown substantially over the past 10 to 15 years, but the basic design of most vibrators hasn’t changed in decades.
+&lt;br&gt;&lt;br&gt;
+Working with well-respected sex therapist Julia Cole, Relate and the BASRT (The British Association for Sexual and Relationship Therapy), we set out to create a range of intimate massagers that did more than simply look good. So many companies talk solely about design, but we decided to let function, shape and texture be our guide to creating our intimate massagers. Designers can produce visually inspiring products, but if they don’t work, what’s the point? 
+&lt;br&gt;&lt;br&gt;
+Our intimate massagers look different, because they are different.</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA10" xml:space="preserve">
+    <value>The Fair Credit Billing Act protects you from paying more than £50 in the event of your card being used fraudulently. If for some reason your bank does charge you, we will refund you the full amount up to £50. 
+&lt;br&gt;&lt;br&gt;
+To receive the refund you will need to be able to prove the card was used fraudulently to buy goods on our site, through no fault of your own, using our secure server. 
+&lt;br&gt;&lt;br&gt;
+If you notice someone has fraudulently used your card on this site, you must inform your credit card provider immediately. 
+&lt;br&gt;&lt;br&gt;
+Then contact us &lt;a href='ebcontact.aspx'&gt;here&lt;/a&gt;. 
+&lt;br&gt;&lt;br&gt;
+Please Note: The Fair Credit Billing Act doesn’t cover debit or cheque cards. Although we will accept these forms of payment, we recommend you use your credit cards for online purchases on our site.</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA11" xml:space="preserve">
+    <value>We have taken every precaution to safeguard the security of your personal details. Our site uses the industry standard SSL encryption for collecting and transferring credit card information and other sensitive data. Credit card numbers are only used for processing payments, not for any other purpose. Click on the XRampSSL button below to view the Emotional Bliss secure certificate. &lt;br&gt;&lt;br&gt;
+&lt;script language=JavaScript src='https://seal.XRamp.com/seal.asp?type=1'&gt;&lt;/script&gt;</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA12" xml:space="preserve">
+    <value>&lt;font color='lightblue'&gt;&lt;b&gt;Returns Due to Product Defect&lt;/b&gt;&lt;/font&gt;&lt;br&gt;
+If any item arrives faulty or breaks down within a year of the purchase date, we will either replace the merchandise or provide you with a credit for the original purchase (excluding tax, shipping and handling).
+&lt;br&gt;&lt;br&gt;
+&lt;font color='lightblue'&gt;&lt;b&gt;Returns Due to Customer Dissatisfaction&lt;/b&gt;&lt;/font&gt;&lt;br&gt;
+If you are unhappy with your purchase for any reason, please contact us within 90 days of receipt of your order. We will either issue a credit for the cost of the item or replace it with another item of equal value. 
+&lt;br&gt;&lt;br&gt;
+We want you to be happy with our products, so even if you bought something from us more than a year ago, we might be able to help. Simply email us, and we’ll see what we can do. 
+&lt;br&gt;&lt;br&gt;
+We will not refund any Emotional Bliss intimate massager/s if they have been used and found to be working satisfactorily. 
+&lt;br&gt;&lt;br&gt;
+No goods delivered to you which are in accordance with the agreement and guarantees will be accepted for return by us without our prior written approval (in accordance with our returns authorisation procedure) and on terms to be determined at our absolute discretion. 
+&lt;br&gt;&lt;br&gt;
+If we agree to accept any such goods for return you shall be liable to pay a handling charge of (25%) of the invoice price. Such goods must be returned by you to us carriage-paid and in the original packaging. 
+&lt;br&gt;&lt;br&gt;
+Goods which are in accordance with the agreement and are returned without our prior written approval may at our absolute discretion be returned to you or stored at your cost without prejudice to any other rights or remedies we may have. 
+&lt;br&gt;&lt;br&gt;
+Emotional Bliss.com is not responsible for refunds or replacement shipments providing the courier tracking system confirms the delivery has been made. If the courier tracker number shows a package has been delivered, but you have not received your order, then please contact us 
+&lt;br&gt;&lt;br&gt;
+If a package cannot be delivered for any reason, Emotional Bliss will refund your credit card for the product purchased only courier charges will still apply. 
+&lt;br&gt;&lt;br&gt;
+&lt;font color='lightblue'&gt;&lt;b&gt;Requesting a Return&lt;/b&gt;&lt;/font&gt;&lt;br&gt;
+To find out about returning a product, contact us and provide your name, order ID and brief description of the problem. We will send you instructions on how to return your package. 
+&lt;br&gt;&lt;br&gt;
+Please note that we cannot refund or credit your account until we have received your returned order. Credit card refunds may take a month or so to appear on your statement. Customers are responsible for postage on all returned items. 
+&lt;br&gt;&lt;br&gt;
+We never resell returned merchandise.</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA13" xml:space="preserve">
+    <value>At Emotional Bliss we will do everything in our power to provide our customers with the highest quality products and service. If for any reason you are not happy with you’re your order we will either exchange for another Emotional Bliss intimate massager or credit in full (excluding courier charge). 
+</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA14" xml:space="preserve">
+    <value>Throughout the site you’ll see this symbol &lt;img src='images/audio.gif'&gt; If you click on this button, you’ll be able to hear sexologist Julia Cole and other women taking about the topic on that page.</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA2" xml:space="preserve">
+    <value>Our intimate massagers are not “novelty” items, but we are sure you will have fun with them. Three years of research have gone into creating and improving our products. 
+&lt;br&gt;&lt;br&gt;
+The collaboration with experts Julia Cole, Relate and the BASRT gave us the opportunity to create a range of products that focus on women’ s needs. So, we concentrate on stimulating the external nerve endings around the clitoris and vaginal lips, rather than internally, where most people believe the stimulation comes from - the infamous “G Spot”, for example, is a much-debated topic. 
+&lt;br&gt;&lt;br&gt;
+What we do know is that there are more nerve endings located between the clitoris and the anus on a woman than any other part of her body, hence the Emotional Bliss range of intimate massagers. 
+&lt;br&gt;&lt;br&gt;
+The plastic used in our intimate massagers is as close to the softness of natural skin and the vibrations are set at 80Hz, the frequency best known to arouse women. We’ve also tried to think green, and use environmentally friendly rechargeable batteries. 
+&lt;br&gt;&lt;br&gt;
+We hope that our intimate massagers will speak for themselves; below you can read in more detail the challenges we faced creating the Emotional Bliss range of intimate massagers.</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA3" xml:space="preserve">
+    <value>We would be delighted to sell our product on the high street; unfortunately in the UK the typical Sex Shop would not be appropriate as we are far removed from the conventional sex toy. We see ourselves as an exclusive quality brand that represents female sexual independence; unfortunately this type of proud bold statement is not supported in today’s High Street. 
+&lt;br.&lt;br&gt;
+If you know of any retail shops that are prepared to stand-up for female sexual independence, we would be more than happy to support them!
+</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA4" xml:space="preserve">
+    <value>By using DHL we believe our customers receive a superior service. All UK customers are guaranteed delivery within 48 hours from your order leaving our depot, and European orders will take no longer than 48-72 hours. You will receive via email your tracker reference number once your order has been despatched.</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA5" xml:space="preserve">
+    <value>Your order will be despatched in discreet packaging and delivered by couriers directly to your door. To help you track your order we will contact you by email when your order is dispatched (this service is for internet orders only). 
+</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA6" xml:space="preserve">
+    <value>If you’d rather order over the telephone, you can contact our call centre Monday – Friday, 8am to 10pm, Saturday and Sunday 9am to 5-30pm. 
+&lt;br&gt;&lt;br&gt;
+Please remember to make a note of your reference number.
+&lt;br&gt;&lt;br&gt;
+UK residents call: 0870 041 00 22
+European residents call: 0044 870 41 00 22 
+</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA7" xml:space="preserve">
+    <value>It is possible to pay by cheque or postal order. Simply click the shop button, and continue shopping as normal. On the Shopping Basket page select cheque from the dropdown, click on the proceed button and enter your delivery address. Once you have completed the form click on the print button and send a copy of the invoice along with your cheque made payable to Emotional Bliss for the full amount as shown on your invoice. If we don’t receive your payment within five working days, your request will be deleted from our files for security reasons. However if you have any queries regarding your cheque payment, then please &lt;a href='ebcontact.aspx'&gt;contact us&lt;/a&gt;. 
+</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA8" xml:space="preserve">
+    <value>We accept payment in GB pounds (£) and Euros (€) depending on where you would like your order to be delivered. On entering the Emotional Bliss Shop the currency will be clearly identified. </value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblA9" xml:space="preserve">
+    <value>In the past men have purchased the traditional sex toy and then presented it to their wife or partner with a smile. Here at Emotional Bliss we consider the purchase of an EB intimate massager to be a personal and emotional experience. Most men believe that women achieve orgasm by intercourse alone, and for this reason the majority of them are not suited to selecting your EB intimate massager. 
+&lt;br&gt;&lt;br&gt;
+For the men we have developed the Voucher System. By selecting a voucher of chosen value the purchaser then has the opportunity to type his (or her) private message. The message will next appear when the voucher is used.</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblEBFAQ" xml:space="preserve">
+    <value>Emotional Bliss FAQs:</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ1" xml:space="preserve">
+    <value>What was the thinking behind Emotional Bliss ?</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ10" xml:space="preserve">
+    <value>Banking</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ11" xml:space="preserve">
+    <value>Security</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ12" xml:space="preserve">
+    <value>Returning your goods</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ13" xml:space="preserve">
+    <value>The EB guarentee</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ14" xml:space="preserve">
+    <value>Audio</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ2" xml:space="preserve">
+    <value>Whats so special about EB intimate massagers ?</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ3" xml:space="preserve">
+    <value>Why cant we buy your intimate massagers in the shops ?</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ4" xml:space="preserve">
+    <value>Why use couriers to deliver ?</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ5" xml:space="preserve">
+    <value>How is my order despatched ?</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ6" xml:space="preserve">
+    <value>Phone Orders</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ7" xml:space="preserve">
+    <value>Paying by cheque</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ8" xml:space="preserve">
+    <value>Currency</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblQ9" xml:space="preserve">
+    <value>Vouchers</value>
+    <comment>Text</comment>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>Frequently Askedt Questions</value>
+    <comment>Text</comment>
+  </data>
+</root>

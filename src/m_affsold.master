@@ -1,0 +1,161 @@
+<%@ Master Language="VB" CodeFile="m_affs.master.vb" Inherits="m_affs" %>
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="atlas" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <link type="text/css" rel="stylesheet" href="/design/style.css" />
+    <title>Emotional Bliss Vibrators and Intimate Massagers</title>
+    <meta id="metaDescription" runat="Server" name="description" content="Buy Emotional Bliss intimate massagers and vibrators here including the Womolia, Jasmine, Femblossom, Chandra and Isis. Unleash your inner erotic spirit!" />
+    <meta id="metaKeywords" runat="server" name="keywords" content="Emotional Bliss, vibrators, intimate massagers, Womolia, Jasmine, Femblossom, Chandra, Isis, Julia Cole" />
+    <meta name="verify-v1" content="PWwl08CaM3oWkqZXsGrFFQ6gSaWNIpPQ++IlvNPqmME=" />
+    <meta name="language" content="en, us," />
+    <meta name="distribution" content="Global" />
+    <meta name="rating" content="General" />
+    <meta name="expires" content="Never" />
+    <meta name="robots" content="Index, follow all" />
+    <meta name="revisit-after" content="4 Days" />
+    <meta name="copyright" content="Emotional Bliss 2008" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="sm1" runat="server" EnablePartialRendering="true"></asp:ScriptManager>
+        <div id="container">
+            <div id="distmenu" runat="server" visible="false">
+                <asp:Menu ID="menuDistMenu" runat="server" StaticDisplayLevels="1" Orientation="Horizontal" width="100%">
+                </asp:Menu>
+            </div>
+            <div id="main">
+                <div id="main950">
+                    <div id="topgradient">
+                        <img src="/design/images/top-gradient.gif" alt="emotional bliss" width="950" height="8" />
+                    </div>
+                    <div id="backheader" runat="server" style="background-image:  url('/design/images/home-header.jpg'); width: 950px; height: 385px; margin: 0; padding: 0; border: 0; float: left;">
+                        <div id="topbox">
+                            <div id="logoeb">
+                                <a href="/homeIntro.aspx" target="_self">
+                                    <img src="/design/images/logo-emotional-bliss2.gif" alt="Emotional Bliss" width="240"height="39" border="0" /></a>
+                                    <!--a href='http://www.emotionalbliss.co.uk'><img src='/images/flags/gb.png' border='0' /></a>&nbsp;
+                                    <a href='http://be.emotionalbliss.com'><img src='/images/flags/be.png' border='0' /></a>&nbsp;
+                                    <<a href='http://dk.emotionalbliss.com'><img src='/images/flags/dk.png' border='0' /></a>&nbsp;>
+                                    <a href='http://fr.emotionalbliss.com'><img src='/images/flags/fr.png' border='0' /></a>&nbsp;
+                                    <a href='http://de.emotionalbliss.com'><img src='/images/flags/de.png' border='0' /></a>&nbsp;
+                                    <a href='http://ie.emotionalbliss.com'><img src='/images/flags/ie.png' border='0' /></a>&nbsp;
+                                    <a href='http://nl.emotionalbliss.com'><img src='/images/flags/nl.png' border='0' /></a>&nbsp;
+                                    <a href='http://es.emotionalbliss.com'><img src='/images/flags/es.png' border='0' /></a>&nbsp;
+                                    <a href='http://us.emotionalbliss.com'><img src='/images/flags/us.png' border='0' /></a>&nbsp; 
+                                    <a href='http://ca.emotionalbliss.com'><img src='/images/flags/ca.png' border='0' /></a>&nbsp; 
+                                    <a href='http://eu.emotionalbliss.com'><img src='/images/flags/eu.png' border='0' /></a-->                                                                                                           
+                                                                                                                                                                                    
+                            </div>
+                            <div style="margin-left: 60px; width: 380px; float: right; text-align: right; border: solid 0px black; color: #5987b6; font: 11px 'Lucida Grande',Helvetica, Arial, sans-serif;">
+                                <asp:Image ID="imgCurrentFlag" runat="server" AlternateText="flag" BorderColor="Black" BorderWidth="1" Width="16" Height="11" onLoad="imgCurrentFlag_load" />&nbsp;
+                                <asp:Label ID="lblCurrentCountryName" runat="server"></asp:Label>&nbsp;
+                                <asp:HyperLink ID="lnkChangeCountry" CssClass="change" runat="server" Font-Size="Small" Text="(Change?)" NavigateUrl="http://www.emotionalbliss.com/countryselect.aspx"></asp:HyperLink>
+                            </div>  
+                            <div id="headermenubox">
+                                <a href="/shop/basket.aspx" class="blue" target="_self">
+                                    <img src="/design/images/basket-icon.gif" alt="Shopping Basket" width="24" height="20" align="absmiddle" />
+                                    <asp:Literal ID="litShoppingBasketText" EnableTheming="false" runat="server" Text="Shopping Basket"></asp:Literal></a>&nbsp;&nbsp; | &nbsp;&nbsp;<a href="/ebcontact.aspx" target="_self" class="blue"><asp:Literal ID="litContactUsMenuText" runat="server" Text="Contact Us"></asp:Literal></a>&nbsp;&nbsp;| &nbsp;&nbsp;<a href="/static.aspx?p=newsletter&m=home" class="blue"><asp:Literal ID="Literal2" runat="server" Text="Join Our Mailing List"></asp:Literal></a>&nbsp;&nbsp;| &nbsp;&nbsp;<a href="/traceOrder.aspx" class="blue"><asp:Literal ID="litTrackOrderMenuText" runat="server" Text="Track Your Order"></asp:Literal></a>&nbsp;&nbsp;<asp:Image ID="imgFlag1" runat="server" Visible="false" />
+                            </div>
+                        </div>
+                        <div id="taglinebox">
+                            <div id="tagline">
+                                <asp:Literal ID="litTaglineText" Visible="false" runat="server" Text="Intimate Massagers that caress the natural contours of a woman's body..."></asp:Literal>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="menubar">
+                        <div id="menutext">
+                            <center>
+                                <asp:DataList ID="dlMenu" runat="server" HorizontalAlign="Center" RepeatDirection="Horizontal" GridLines="none" OnItemDataBound="dlMenu_itemDataBound">
+                                    <ItemTemplate>
+                                        <asp:Label ID="lblSpacePre" runat="server" Text="&nbsp;&nbsp;&nbsp;&nbsp;"></asp:Label>
+                                        <asp:HyperLink ID="lnkMenu" runat="server" Text='<%# uCase(Eval("menuname")) %>' NavigateUrl='<%# Eval("url") %>' CssClass="cerise"></asp:HyperLink>
+                                        <asp:Label ID="lblSpaceAft" runat="server" Text="&nbsp;&nbsp;&nbsp;&nbsp;"></asp:Label>
+                                    </ItemTemplate>
+                                </asp:DataList>
+                            </center>
+                        </div>
+                    </div>
+                    <div id="middleback_aff">
+                        <div id="maincontent_aff">
+                            <div id="affmenu">
+                                <table border="0" width="100%" id="tblAffiliate" runat="Server" visible="false">
+                                    <tr>
+                                        <td>
+                                        You are logged in as <asp:Label ID="lblUsername" runat="server"></asp:Label>     
+                                        &nbsp;&nbsp;&nbsp;&nbsp;<asp:Image ID="imgFlag2" runat="server" />
+                                        <asp:HyperLink ID="lnkLogout" runat="server" Font-Bold="true" Text="Logout" NavigateUrl="~/affiliates/logout.aspx"></asp:HyperLink>   
+                                        </td>
+                                        <td align="left" width="30%">
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='javascript:printData();'><b>Print Screen</b></a>
+                                        </td>
+                                        <td align="right">
+                                            <asp:LinkButton ID="lnkPrint" runat="server" Text="Print" Font-Bold="true" OnClientClick="printData();" Visible="false"></asp:LinkButton>
+                                            <asp:Label ID="lblQuickSearch" runat="server" Text="Quick Search:"></asp:Label>
+                                            <asp:TextBox ID="txtQuickSearch" runat="server" Width="60" AutoPostBack="true" Height="12" Font-Size="smaller" OnTextChanged="txtQuickSearch_textChanged"></asp:TextBox>
+                                            <asp:Label ID="lblOrderNotFound" runat="server"></asp:Label>
+                                            Please Select:&nbsp;<asp:DropDownList ID="drpAffMenu" runat="server" OnSelectedIndexChanged="drpAffMenu_selectedIndexChanged" AutoPostBack="true">
+                                                <asp:ListItem Text="Overview" Value="overview"></asp:ListItem>
+                                                <asp:ListItem Text="Place Order" Value="order"></asp:ListItem>
+                                                <asp:ListItem Text="Consultancy" Value="consultancy" Enabled="false"></asp:ListItem>
+                                                <asp:ListItem Text="View Statement" Value="statement"></asp:ListItem>
+                                                <asp:ListItem Text="View Orders" Value="orders"></asp:ListItem>
+                                                <asp:ListItem Text="Affiliate Links" Value="links"></asp:ListItem>
+                                                <asp:ListItem Text="Banners" Value="banners"></asp:ListItem>
+                                                <asp:ListItem Text="Visuals" Value="media"></asp:ListItem>
+                                                <asp:ListItem Text="Contact Us" Value="contact"></asp:ListItem>
+                                                <asp:ListItem Text="Change Password" Value="password"></asp:ListItem>
+                                                <asp:ListItem Text="Logout" Value="logout"></asp:ListItem>
+                                            </asp:DropDownList>
+                                        </td>
+                                    </tr>
+                                    <tr id="Tr1" runat="server" visible="False">
+                                        <td colspan="2">
+                                            <atlas:UpdatePanel id="update1" runat="server">
+                                                <ContentTemplate>
+                                                    <asp:Label ID="lblTest" runat="server" ForeColor="red"></asp:Label>
+                                                    <asp:Table ID="tblDistMainNavbar" runat="server" Width="100%" BackColor="#eeeeee" CellSpacing="0" ForeColor="#888888">
+                                                    </asp:Table>                                        
+                                                    <asp:Table ID="tblDistNavbar" runat="server" Width="100%" BackColor="#bbbbbb" CellSpacing="0">
+                                                    </asp:Table>                                        
+                                                </ContentTemplate>
+                                            </atlas:UpdatePanel>
+                                            <br />
+                                        </td>
+                                     </tr>
+                                </table>
+                            </div>
+                            <asp:Label ID="lblError1" runat="server"></asp:Label>
+                            <asp:Panel ID="panTextBody" runat="server">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+		                    </asp:Panel>
+                        </div>   
+                    </div>
+                </div>                     
+                <div id="bottom">
+                    <div id="bottomlinks">
+	                    <div id="bottomtext">
+	                        <asp:Literal ID="lblSiteFooter" runat="server"></asp:Literal> | <a class='bottom' target="_blank" href='http://leaseyourwebsite.co.uk'>Ecommerce Web Design</a>
+	                    </div>
+	                </div>
+                </div>
+            </div>
+        </div>
+        <asp:HiddenField ID="hidL" runat="server" /><br />
+        <asp:HiddenField ID="hidS" runat="server" />
+        <script language="javascript" type="text/javascript">
+            var printWin;
+            function printData() {
+                printWin = window.open('/printPop.aspx');
+            }
+            function remoteCall() {
+                printWin.passData(document.getElementById('ctl00_panTextBody').innerHTML);
+            }
+        </script>
+    </form>
+</body>
+</html>

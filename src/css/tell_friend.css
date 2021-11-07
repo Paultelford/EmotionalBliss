@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+a:focus {
+outline: none;
+}
+
+
+
+#container {
+clear: both;
+margin: 0;
+padding: 0;
+}
+
+#container a{
+
+}
+
+#container a:hover{
+
+
+}
+
+
+.content {
+font-style:normal;
+color:#ffffff;
+background:#333333;
+border:1px solid #444444;
+
+margin: 30px 0 50px;
+padding: 15px 0;
+}
+
+.content p {
+margin: 10px 0;
+padding: 15px 20px;
+}
+
+.panel {
+	position: absolute;
+	top: 88px;
+	display: none;
+	background: #ffffff94;
+	border-bottom: thin #CCC dotted;
+	width: 600px;
+	height: auto;
+	padding: 30px 30px 30px 30px;
+	filter: alpha(opacity=85);
+	opacity: .85;
+	z-index: 20000;
+	left: 30.5% !important;
+}
+
+.panel p{
+margin: 0 0 15px 0;
+padding: 0;
+color: #cccccc;
+}
+
+.panel a, .panel a:visited{
+margin: 0;
+padding: 0;
+text-decoration: none;
+
+}
+
+.panel a:hover, .panel a:visited:hover{
+margin: 0;
+padding: 0;
+color: #ffffff;
+text-decoration: none;
+/*border-bottom: 1px solid #ffffff;*/
+}
+/*this trigger class comiited by shailesh parmar date on 27052021*/
+/*a.trigger{
+padding:5px;
+
+}
+
+a.trigger:hover{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;*/ /* future proofing */
+	/*-khtml-border-radius: 10px;*/ /* for old Konqueror browsers */
+	/*background-color:#eeeeee;
+	
+
+}
+
+a.active.trigger {
+
+}*/
+
+.columns{
+clear: both;
+width: 330px;
+padding: 0 0 20px 0;
+line-height: 22px;
+}
+
+.colleft{
+float: left;
+width: 130px;
+line-height: 22px;
+}
+
+.colright{
+float: right;
+width: 130px;
+line-height: 22px;
+}
+
+ul{
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+
+ul li{
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+
+hr{
+background-color: #333333;
+height: 1px;
+}
+
+a.SendFriend {
+	display: block;
+	height: 30px;
+	width:159px;
+	text-decoration: none;
+	background-image:url(../images2011/btn_sendtofriend.png);
+	}
+
+a.SendFriend:hover {
+	background-position: bottom;
+	}
+
+a.vidplay {
+	display: block;
+	height: 36px;
+	padding-top:6px;
+	padding-right:2px;
+	margin-bottom:-2px;
+
+	width:239px;
+	font-size:14px;
+	background-position: top left center;
+	background-repeat:no-repeat;
+	background-image:url(../images/bg_playvid.png);
+	
+	text-indent:30px;
+	}
+
+
+a.vidplay:hover {
+	background-image:url(../images/bg_playvid_hover.png);
+	color:#FFF;
+
+
+	}
+.tellfrndheader {
+	font-size: 20px;
+	font-weight: 100;
+	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#757575));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: #3b7726b5;
+	margin-bottom: -17px;
+	letter-spacing: -1px;
+}

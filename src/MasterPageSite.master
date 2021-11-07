@@ -1,0 +1,215 @@
+<%@ Master Language="VB" CodeFile="MasterPageSite.master.vb" Inherits="MasterPageSite" %>
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="atlas" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title></title>
+<meta name="description" content="" id="metaDescription" runat="server" />
+<meta name="keywords" content="" id="metaKeywords" runat="server" />
+<meta name="verify-v1" content="PWwl08CaM3oWkqZXsGrFFQ6gSaWNIpPQ++IlvNPqmME=" />
+<meta name="language" content="en, us," />
+<meta name="distribution" content="Global" />
+<meta name="rating" content="General" />
+<meta name="expires" content="Never" />
+<meta name="robots" content="Index, follow all" />
+<meta name="revisit-after" content="5 Days" />
+<meta name="copyright" content="Emotional Bliss 2008" />
+<meta name="SEO and web analytics" content="Maven Metrics www.mavenmetrics.com" />
+<style type="text/css">
+    a.testClass:link { color:#eeeeee; }
+    a.testClass:visited { color:#eeeeee; }
+    a.testClass:active { color:#red; }
+    a.testClass:hover { text-decoration:underline; }
+    a.menuitem:link { color:#black; }
+    a:menuitem:hover { color:#red; }
+</style>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<script language="javascript" type="text/javascript">
+function redirectToOverview()
+{
+    location.href='overview.aspx';
+}
+</script>
+
+</head>
+<body topmargin="5">
+    <form id="form1" runat="server">
+        <div align="center">
+            <asp:ScriptManager ID="sm1" runat="server" EnablePartialRendering="true"></asp:ScriptManager>
+            <table border="0" cellpadding="0" cellspacing="0" width="930" id="tblMain" runat="server">
+                <tr>
+                    <td valign="top" id="tdExtraMenu2" width="100%" align="left">
+                        <asp:Menu ID="menuDistMenu" runat="server" StaticDisplayLevels="1" Orientation="Horizontal" width="100%">
+                        </asp:Menu>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+<!-- TOP LOGO/IMAGE MAP AND MAIN MENU -->                    
+                        <asp:UpdatePanel ID="updateNav" runat="server">
+                            <ContentTemplate>
+                                <asp:Label ID="lblTester" runat="server"></asp:Label>
+                                <table border="0" width="930" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td align="left">
+                                            <asp:ImageMap id="mapNav" runat="server" ImageUrl="~/images/NavImages/Nav_Menu1_GB.jpg" OnClick="mapNav_click" >
+                                            </asp:ImageMap>
+                                            <!-- DISTRIBUTOR INFO & ORDER SEARCH BAR -->
+                                            <table border="0" width="100%" id="tblAffiliate" runat="Server" visible="false">
+                                                <tr>
+                                                    <td>
+                                                    You are logged in as <asp:Label ID="lblUsername" runat="server"></asp:Label>        
+                                                    </td>
+                                                    <td align="right">
+                                                        <asp:Label ID="lblQuickSearch" runat="server" Text="Quick Search:"></asp:Label>
+                                                        <asp:TextBox ID="txtQuickSearch" runat="server" Width="60" AutoPostBack="true" Height="12" Font-Size="smaller" OnTextChanged="txtQuickSearch_textChanged"></asp:TextBox>
+                                                        <asp:Label ID="lblOrderNotFound" runat="server"></asp:Label>
+                                                        <asp:DropDownList ID="drpAffMenu" runat="server" OnSelectedIndexChanged="drpAffMenu_selectedIndexChanged" AutoPostBack="true">
+                                                            <asp:ListItem Text="Place Order" Value="order"></asp:ListItem>
+                                                            <asp:ListItem Text="Consultancy" Value="consultancy" Enabled="false"></asp:ListItem>
+                                                            <asp:ListItem Text="View Statement" Value="statement"></asp:ListItem>
+                                                            <asp:ListItem Text="View Orders" Value="orders"></asp:ListItem>
+                                                            <asp:ListItem Text="Change Password" Value="password"></asp:ListItem>
+                                                            <asp:ListItem Text="Logout" Value="logout"></asp:ListItem>
+                                                        </asp:DropDownList>
+                                                    </td>
+                                                </tr>
+                                                <tr id="Tr1" runat="server" visible="False">
+                                                    <td colspan="2">
+                                                        <atlas:UpdatePanel id="update1" runat="server">
+                                                            <ContentTemplate>
+                                                                <asp:Label ID="lblTest" runat="server" ForeColor="red"></asp:Label>
+                                                                <asp:Table ID="tblDistMainNavbar" runat="server" Width="100%" BackColor="#eeeeee" CellSpacing="0" ForeColor="#888888">
+                                                                </asp:Table>                                        
+                                                                <asp:Table ID="tblDistNavbar" runat="server" Width="100%" BackColor="#bbbbbb" CellSpacing="0">
+                                                                </asp:Table>                                        
+                                                            </ContentTemplate>
+                                                        </atlas:UpdatePanel>
+                                                        <br />
+                                                    </td>
+                                                 </tr>
+                                            </table>
+                                            <!-- END OF DISTRIBUTOR BAR -->
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr>
+                                                    <td style="background:#d7e5f2">
+                                                        <asp:Table ID="tblMenu" runat="server" BorderWidth="0" CellPadding="0" CellSpacing="0" GridLines="none" BackColor="#d7e5f2">
+                                                        </asp:Table>        
+                                                    </td>
+                                                </tr>
+                                                <tr height="8"><td style="background:#9c9c9c"></td></tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <asp:Label ID="lblError1" runat="server"></asp:Label>
+                            </ContentTemplate>
+                        </asp:UpdatePanel>   
+                    </td>
+                    <td width="0" valign="bottom" id="tdExtraMenu1" visible="false">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr><td></td></tr>
+                            <tr style="background:#d7e5f2" height="22"><td></td></tr><tr height="8"><td style="background:#9c9c9c"></td></tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="100%" align="left">
+                        <table width="930" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td class="testClass" runat="server" visible="false">
+                                   <asp:label id="lblWhereText" runat="server" Text="<%$ Resources:lblWhereText %>" Font-Bold="true" ForeColor="#aaaaaa" Font-Names="verdana" />&nbsp;&nbsp;</asp:HyperLink>&nbsp;>&nbsp;<asp:HyperLink ID="lnkSection" runat="server" Font-Bold="true" Font-Names="verdana" ForeColor="#aaaaaa"></asp:HyperLink><asp:Label ID="lblMenuSeperator" runat="server" Text="&nbsp;>&nbsp;" Visible="false" Font-Bold="true" ForeColor="#aaaaaa" Font-Names="verdana" /><asp:HyperLink ID="lnkSubSection" runat="server" Font-Bold="true" ForeColor="#aaaaaa" Font-Names="verdana"></asp:HyperLink>
+                                </td>
+                                <td align="right" class="testClass" runat="server" visible="true">
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                    </td>                    
+                </tr>
+                <tr>
+                    <td height="5"></td>
+                </tr>
+                <tr>
+                    <td width="100%" id="tblMainFrame" valign="top" align="left">
+                        
+                        <asp:Panel ID="panContentFrame" runat="server">
+                            <span id="mainContent">
+                            <EBContentTag>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </EBContentTag>
+                            </span>
+                        </asp:Panel>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br /><br />
+                    </td>
+                </tr>
+                <tr>
+                    <td width="930" align="center">
+                        <asp:Panel ID="panBtnImages" runat="server" Visible="true">
+                            <!-- Bottom image links-->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td width="33%" align="center">
+                                        <asp:HyperLink ID="lnkMasterLink1" runat="server"></asp:HyperLink>
+                                    </td>
+                                    <td width="33%" align="center">
+                                        <asp:HyperLink ID="lnkMasterLink2" runat="server"></asp:HyperLink>
+                                    </td>
+                                    <td width="33%" align="center">
+                                        <asp:HyperLink ID="lnkMasterLink3" runat="server"></asp:HyperLink>
+                                    </td>
+                                </tr>
+                            </table>
+                            <asp:Label ID="lblRndTest" runat="server"></asp:Label>
+                        </asp:Panel>
+                        <br />
+                        <hr class='blueline' />
+                        <asp:Label ID="lblSiteFooter" runat="server" ForeColor="gray">
+                        </asp:Label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <asp:SqlDataSource ID="sqlMenu" runat="server" EnableCaching="true" CacheDuration="infinite" SqlCacheDependency="emotionalbliss:sitemenu"  SelectCommand="procSiteMenuByCountrySelect" SelectCommandType="StoredProcedure" ConnectionString="<%$ConnectionStrings:connectionString %>">
+            <SelectParameters>
+                
+            </SelectParameters>
+        </asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlCountrys" runat="server" EnableCaching="true" CacheDuration="infinite" SqlCacheDependency="emotionalbliss:country" SelectCommand="procCountrySelect" SelectCommandType="StoredProcedure" ConnectionString="<%$ ConnectionStrings:connectionString %>"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="sqlDistMenu" runat="server" EnableCaching="true" CacheDuration="infinite" SqlCacheDependency="emotionalbliss:affiliateMenu" SelectCommand="procAffiliateMenuDeptSelect" SelectCommandType="StoredProcedure" ConnectionString="<%$ ConnectionStrings:connectionString %>"></asp:SqlDataSource>
+    
+        <span style="display:none">
+        <!-- Cache nav images -->
+        <asp:Image ID="imgNav1" runat="server" />
+        <asp:Image ID="imgNav2" runat="server" />
+        <asp:Image ID="imgNav3" runat="server" />
+        <asp:Image ID="imgNav4" runat="server" />
+        <asp:Image ID="imgNav5" runat="server" />
+        <asp:Image ID="imgNav6" runat="server" />
+        <asp:Image ID="imgNav7" runat="server" />
+        <asp:Image ID="imgNav8" runat="server" />
+        </span>    
+            
+        <script language="javascript" type="text/javascript">
+        var win;
+        function printMainFrm()
+        {
+            win=window.open('/printPop.aspx','pageprinter','menubar=1,resizable=1,width=930,height=600,scrollbars=1,toolbar=1');
+        }
+        function remoteCall()
+        {
+            var html=document.getElementById("mainContent").innerHTML;
+            //var html;
+            win.passData(html);
+        }
+        </script>
+        <asp:Label ID="lblNull" runat="server" Text="tmp" Visible="false"></asp:Label>
+    </form>
+</body>
+</html>

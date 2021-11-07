@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblHeader" xml:space="preserve">
+    <value>&lt;font color='lightblue'&gt;&lt;b&gt;Emotional Bliss Terms and Conditions of Site&lt;/b&gt;&lt;/font&gt;</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblHtml" xml:space="preserve">
+    <value>By using this site, you signify your consent to these Terms and Conditions. If you do not agree to all of these Terms and Conditions of use, please do not use this site! Emotional Bliss may revise and update these Terms and Conditions at anytime. Your continued usage of Emotional Bliss site will mean you accept those changes.  
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;This Site Does Not Provide Medical Advice  &lt;/b&gt;
+&lt;br&gt;&lt;br&gt; 
+The contents of Emotional Bliss site, such as text, graphics, images, information obtained from Emotional Bliss is for informational purposes only. The Content is not intended to be a substitute for professional medical advice, diagnosis or treatment. Always seek the advice of your qualified medical practitioner with any questions you may have regarding a medical condition. Reliance on any information provided by Emotional Bliss is solely at your own risk.  
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Copyright — Use of Content  &lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+Emotional Bliss authorizes you to view or download a single copy of the material on the Emotional Bliss site solely for your personal, non-commercial use if you include the following copyright notice: “Copyright - 2002, Emotionalbliss.com. All rights reserved” as well as any other copyright and proprietary rights notices which were contained in the Content. You may not modify, copy, publish, display, transmit, adapt or in any way commercially exploit the content of the Emotional Bliss website. Only if you obtain prior written consent from us may you publish, display or commercially exploit any material from the Emotional Bliss website. To seek our permission, you may write to &lt;a href='mailto:generalenquiries@emotionalbliss.com'&gt;generalenquiries@emotionalbliss.com&lt;/a&gt;. If permission is granted by us you may not change or delete any author attribution, trademark, legend or copyright notice. The Content is protected by copyright under English Law. Title to the Content remains with Emotionalbliss.com. Any use of the Content not expressly permitted by these Terms and Conditions is a breach of these Terms and Conditions and may violate copyright, trademark, and other laws. Content and features are subject to change or termination without notice in the editorial discretion of Emotional Bliss. All rights not expressly granted herein are reserved to Emotional Bliss. If you violate any of these Terms and Conditions, your permission to use the Content automatically terminates and you must immediately destroy any copies you have made of any portion of the Content. You must abide by all additional copyright notices or other restrictions contained in any of Emotional Bliss.  
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Links and Advertisements to Other Sites  &lt;/b&gt;
+&lt;br&gt;&lt;br&gt; 
+&lt;b&gt;• Links  &lt;/b&gt;
+&lt;br&gt;&lt;br&gt; 
+These terms and conditions apply only to Emotional Bliss, and not to the sites of any other companies or organizations, including those to which any of Emotional Bliss may link. We are not responsible for the availability of any other site to which any of Emotional Bliss website links. We do not endorse or take responsibility for the contents, advertising, products or other materials made available through any other site. Under no circumstances will we be held responsible or Liable, directly or indirectly, for any loss or damage that is caused or alleged to have been caused to you in connection with your use of, or reliance on, any content, goods or services available on any other site. Other sites may link to any of Emotionalbliss.com only through a plain-text link. To seek our permission for a plain-text link, please write to &lt;a href='mailto:generalenquiries@emotionalbliss.com'&gt;generalenquiries@emotionalbliss.com&lt;/a&gt;. We reserve the right, however, to rescind any permission granted by us to link through a plain-text link, and to require termination of any such link to the Emotionalbliss.com website, at our discretion at any time.  
+&lt;br&gt;&lt;br&gt; 
+&lt;b&gt;• Advertisements  &lt;/b&gt;
+&lt;br&gt;&lt;br&gt; 
+Emotional Bliss are not responsible for the content of linked third-party sites, sites framed within Emotionalbliss.com, or third party advertisements sites linked to Emotionalbliss.com, and does not make any representations regarding their content or accuracy. Your use of third-party websites is at your own risk and subject to the terms and conditions of use for such sites.  
+&lt;br&gt;&lt;br&gt; 
+&lt;b&gt;Liability of the Site and Its Operators  &lt;/b&gt;
+&lt;br&gt;&lt;br&gt; 
+The use of Emotional Bliss website and its allied sites and the Content is at your own risk. When using the Emotionalbliss.com website, information will be transmitted over a medium which is beyond the control and jurisdiction of Emotional Bliss. Accordingly, Emotional Bliss assumes no liability for or relating to the delay, failure, interruption or corruption of any data or other information transmitted in connection with use of the Emotionalbliss.com website. The Emotionalbliss.com website and the content are provided on an “as is” basis. Specifically, Emotionalbliss.com makes no representation or warranty about the accuracy, reliability, completeness, correctness or timeliness of the Content, software, text, graphics, links, or communications provided on or through the use of the Emotionalbliss Limited website.  
+&lt;br&gt;&lt;br&gt; 
+&lt;b&gt;Privacy Policy &lt;/b&gt; 
+&lt;br&gt;&lt;br&gt; 
+We are committed to protecting your privacy and security and have explained in detail the steps we take to do so. We urge you to read our &lt;a href='http://www.emotionalbliss.com/privacy.asp'&gt;Privacy Policy&lt;/a&gt;.  
+&lt;br&gt;&lt;br&gt; 
+&lt;b&gt;Indemnity  &lt;/b&gt;
+&lt;br&gt;&lt;br&gt; 
+You agree to defend, indemnify and hold Emotional Bliss, directors, employees, agents, affiliates, licensors and suppliers, harmless from and against any claims, actions or demands, liabilities and settlements including without limitation, reasonable legal and accounting fees, resulting from, or alleged to result from, your violation of these Terms and Conditions.  
+&lt;br&gt;&lt;br&gt; 
+&lt;b&gt;Complete Agreement  &lt;/b&gt;
+&lt;br&gt;&lt;br&gt; 
+These Terms and Conditions constitute the entire agreement between you and Emotional Bliss with respect to the use of Emotionalbliss.com and its allied sites, and Content. Your use of the Emotionalbliss.com website is also subject to the Emotionalbliss Privacy Policy.  
+&lt;br&gt;&lt;br&gt; 
+Thank you for your co-operation. We hope you find the Emotionalbliss.com website helpful and convenient to use! Questions or comments regarding these Terms and Conditions should be directed by electronic mail to &lt;a href='mailto:generalenquiries@emotionalbliss.com'&gt;generalenquiries@emotionalbliss.com&lt;/a&gt; Copyright 2002 Emotionalbliss.com. All Rights Reserved.</value>
+    <comment>Html</comment>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>Terms &amp; conditions of site</value>
+    <comment>Text</comment>
+  </data>
+</root>

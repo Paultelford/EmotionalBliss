@@ -1,0 +1,83 @@
+<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>EmotionalBliss Maintenance</title>
+</head>
+<body id="siteBody" runat="server">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="sm1" runat="server" EnablePartialRendering="true">
+    </asp:ScriptManager>
+    <div>
+        <asp:Loginview ID="logMaintenance" runat="server">
+        <LoggedInTemplate>  
+            <center>            
+            <!--  END OF TABLE -->
+                
+                    <table width="930" border="0">
+                        <tr>
+                            <td>
+                                <asp:UpdatePanel ID="update1" runat="server">
+                                    <ContentTemplate>
+                                        <asp:ImageMap id="mapNav" runat="server" ImageUrl="~/images/NavImages/Nav_Peartree1_GB.jpg" OnClick="mapNav_click" >
+                                        </asp:ImageMap>
+                                    </ContentTemplate>
+                                </asp:UpdatePanel>                                    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="left">
+                                You are logged in as <asp:LoginName ID="loginName1" runat="server" />.&nbsp;&nbsp;<asp:LoginStatus ID="loginStatus1" runat="server" />          
+                                <br />
+                                <div id="printDiv">
+                                    <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">                            
+                                    </asp:contentplaceholder>        
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    
+            <span style="display:none;">
+            <asp:DropDownList ID="drpMainCountry" runat="server" Visible="false"></asp:DropDownList>
+            </span>
+            </center>
+            <asp:Label ID="lblTest22" runat="server"></asp:Label>
+        </LoggedInTemplate>
+        <AnonymousTemplate>
+            Please <asp:HyperLink ID="lnkLogin" runat="server" Text="login" NavigateUrl="~\maintenance\login.aspx"></asp:HyperLink>.
+        </AnonymousTemplate>
+        </asp:Loginview>
+    </div>
+    <span style="display:none">
+    <!-- Cache nav images -->
+    <asp:Image ID="imgNav1" runat="server" />
+    <asp:Image ID="imgNav2" runat="server" />
+    <asp:Image ID="imgNav3" runat="server" />
+    <asp:Image ID="imgNav4" runat="server" />
+    <asp:Image ID="imgNav5" runat="server" />
+    <asp:Image ID="imgNav6" runat="server" />
+    <asp:Image ID="imgNav7" runat="server" />
+    </span>  
+    </form>
+   
+</body>
+</html>
+<script language="javascript">
+    var winPrint;
+    function printPage()
+    {
+        winPrint=window.open("/printPop.aspx","printpopper","toolbars=none");
+    }
+    function remoteCall()
+    {
+        var html=document.getElementById("printDiv").innerHTML;
+        winPrint.passData(html);
+    }
+    function menuOpen(url)
+    {
+        var page = new String(url)
+        var arr = page.split(".")
+        var win=window.open(url,arr[0]);
+    }
+</script>

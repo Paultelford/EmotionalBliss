@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblHeader" xml:space="preserve">
+    <value>Een selectie van de websites met wie Emotional Bliss samenwerkt.
+Zeker de moeite waard om ook eens te bekijken</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblHtml" xml:space="preserve">
+    <value>&lt;a href='http://www.shespot.nl/'&gt;Shespot&lt;/a&gt;&lt;br&gt;
+Heerlijke site met veel informatie en veel links naar andere erotisch getinte websites.&lt;br&gt;
+Erotiek in de breedste zin van het woord vanuit een vrouwvriendelijke invalshoek. 
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.seksvraagbaak.nl/'&gt;Seksvraagbaak&lt;/a&gt;&lt;br&gt;
+Advies, nieuws, tips en technieken voor een (h)eerlijk seksleven. 
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.nvsh.nl/'&gt;NVSH&lt;/a&gt;&lt;br&gt;
+Seksuele voorlichting? Het blijft leuk!&lt;br&gt;
+Al sinds 1946 een vereniging die seksualiteit bespreekbaar maakt.
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.acsg.nl/'&gt;MR70 - Rutgershuis Amsterdam&lt;/a&gt;&lt;br&gt;
+Amsterdams Centrum voor Seksuele Gezondheid, ACSG, voorheen een Rutgershuis
+De instantie waar je naar binnen kunt lopen met alle vragen die te maken hebben met seksualiteit.
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.webvrouw.nl/'&gt;Webvrouw&lt;/a&gt;&lt;br&gt;
+Webvrouw is een interactieve ontmoetingsplaats voor de moderne vrouw.&lt;br&gt;
+Webvrouw is leuk, leerzaam, gezellig en soms een beetje spannend. 
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.seksualiteit.nl/'&gt;Seksualiteit.nl&lt;/a&gt;&lt;br&gt;
+De informatieve website van seksuoloog / arts Peter Leusink.&lt;br&gt;
+Helaas, Seksualiteit.nl stopt er binnenkort mee en zal worden doorgelinkt naar Sense.&lt;br&gt;
+Sense, de naam voor een aantal nieuwe centra voor seksuele gezondheid (soa, anticonceptie en seksualiteit).
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.cheeky4her.com/'&gt;Cheeky4her&lt;/a&gt;&lt;br&gt;
+Unieke erotische site voor de moderne vrouw, mooi, ondeugend en helemaal vrouwvriendelijk.
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.letsbeopen.com/'&gt;Let's Be Open&lt;/a&gt;&lt;br&gt;
+Leuke site voor bi-meiden of meiden met ontluikende bi-gevoelens.&lt;br&gt;
+Initiatief neemster is Big Brother winnares Bianca Haagenbeek.&lt;br&gt;
+Let's Be Open organiseert ook regelmatig leuke themafeesten.
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.factsonsex.com/'&gt;Facts on Sex&lt;/a&gt;&lt;br&gt;
+Alles over hoe je je seksleven rijker en beter kunt maken.
+&lt;br&gt;&lt;br&gt;
+&lt;a href=http://www.rutgersnissogroep.nl/'&gt;RutgersNissoGroep (RNG)&lt;/a&gt;&lt;br&gt; 
+De Rutgers Nisso Groep, kenniscentrum voor seksualiteit, doet onderzoek, ontwikkelt voorlichtingsprogramma's en heeft een eigen InformatieCentrum op het gebied van seksualiteit.
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.relatieraadsel.nl/'&gt;Relatie Raadsel&lt;/a&gt;&lt;br&gt;
+Voor singles en stellen die hobbels ervaren in de liefde.
+Kom je zelf niet verder?&lt;br&gt;
+De coach van Relatieraadsel helpt je de antwoorden van jouw specifieke raadsel te vinden.
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.annazorg.nl/'&gt;ANNAZorg&lt;/a&gt;&lt;br&gt;
+ANNAzorg biedt interactieve zorgprogramma's aan voor veel voorkomende psychische klachten zoals seksuele problemen / verminderd verlangen. 
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.hartszaken.nl/'&gt;Hartszaken&lt;/a&gt;&lt;br&gt;
+De site van seksuoloog Vera Steenhart. Je vindt hier informatie over haar praktijk voor seksuologische therapie, relatietherapie en coaching. Komend seizoen geeft zij ook weer een aantal workshops op het gebied van relaties en seksualiteit. 
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.vrouwonline.nl/'&gt;Vrouwonline&lt;/a&gt;&lt;br&gt;
+Alles over vrouwen komt hier aan bod, van koken tot seks. Een initiatief van Sanoma uitgevers.&lt;br&gt;
+Een bundeling van leuke nieuwtjes etc. die je ook vindt in de Viva, Flair, Libelle, Esta en Margriet.
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.horoscoopgids.nl/'&gt;HoroscoopGids&lt;/a&gt;&lt;br&gt;
+Voor iedereen die benieuwd is wat haar of hem vandaag te wachten staat.
+&lt;br&gt;&lt;br&gt;
+&lt;a href=''&gt;Planet Internet - Sanderijn van der Doef&lt;/a&gt;&lt;br&gt;
+Hier heeft een van de bekendste seksulogen van Nederland - Sanderijn van der Doef - haar eigen rubriek. Zij behandelt hier allerlei vragen en problemen omtrent seksualiteit.&lt;br&gt;
+Sanderijn werkt al vanaf de eerste dag samen met Emotional Bliss omdat zij de producten geweldig vindt en de filosofie ondersteunt.
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.ikhouvan.je/'&gt;Ik hou van je&lt;/a&gt;&lt;br&gt;
+Alles over de liefde met serieuze maar ook hele grappige en stoute onderwerpen.
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.yes.nl/'&gt;YES&lt;/a&gt;&lt;br&gt;
+De website van het tijdschrift YES voor jonge meiden.
+Met uiteraard ook aandacht voor seks en masturbatie.
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.eropodium.nl/'&gt;Eropodium&lt;/a&gt;&lt;br&gt;
+De site met alleen de beste erotische verhalen, beoordeeld door een onafhankelijke commissie, en met een heus dorpje (Eroplaza) waarin schrijvers en bezoekers hun intrek hebben genomen voor allerhande activiteiten.
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.dare2dare.nl/'&gt;Dare 2 Dare&lt;/a&gt;&lt;br&gt;
+Dare2dare is gespecialiseerd in vrouwvriendelijke erotische homeparties.
+Ook leuk als vrijgezellenfeest. De vibrators van Emotional Bliss zijn bij elke party te koop.
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.zoenenenzo.nl/'&gt;Zoenen en zo&lt;/a&gt;&lt;br&gt;
+De site over relaties en seksualiteit voor jongeren met een handicap.
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.hildevanderploeg.nl/'&gt;Sekswoordenboek&lt;/a&gt;&lt;br&gt;
+Alles wat je wilt weten over seks vindt je hier.&lt;br&gt;
+Achter elke letter van het alfabet verschuilt een reeks gerelateerde seksonderwerpen.
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.baby-kind.nl/'&gt;Baby en kind.&lt;/a&gt;&lt;br&gt;
+Baby en Kind bestaat om aanstaande moeders te voorzien van alle informatie op
+het gebied van baby en kind! En ook seksualiteit komt aan bod.
+Na een bevalling is het opnieuw genieten van seks niet voor elke vrouw even gemakkelijk.&lt;br&gt;
+Hierbij kunnen de vibrators van Emotional Bliss een goede hulp zijn.
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.hetnet.nl/lifestyle/1994w1.htm'&gt;Het Net &lt;/a&gt;&lt;br&gt;
+Ook bij HetNet laten ze u kennis maken met Emotional Bliss vibrators.
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.gezondheidsplein.nl/'&gt;Gezondheidsplein&lt;/a&gt;&lt;br&gt;
+Gezondheidsplein is de gezondste gids op internet. Je vindt hier alles over gezondheid, nuttige tips, persoonlijke verhalen, uitgebreide achtergrondinformatie en een forum voor contact met lotgenoten. 
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.leefwijzer.nl/'&gt;Leefwijzer &lt;/a&gt;&lt;br&gt;
+De site van en voor mensen met een handicap of chronische ziekte.
+&lt;br&gt;&lt;br&gt;
+&lt;a href='http://www.linkinzicht.nl/'&gt;Linkinzicht&lt;/a&gt;&lt;br&gt;
+Overzichtelijke startpagina met vele interessante links.</value>
+    <comment>Html</comment>
+  </data>
+  <data name="lblIntro" xml:space="preserve">
+    <value />
+    <comment>Html</comment>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>Links</value>
+    <comment>Text</comment>
+  </data>
+</root>

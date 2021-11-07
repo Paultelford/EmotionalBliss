@@ -1,0 +1,377 @@
+﻿<%@ Master Language="VB" CodeFile="msite.master.vb" Inherits="msite" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href='https://fonts.googleapis.com/css?family=Cantarell:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='css/style11.css' rel='stylesheet' type='text/css'>
+    <meta id="metaDescription" runat="Server" name="description" content="Buy Emotional Bliss intimate massagers and vibrators here including the Womolia, Jasmine, Femblossom, Chandra and Isis. Unleash your inner erotic spirit!" />
+    <meta id="metaKeywords" runat="server" name="keywords" content="Emotional Bliss, vibrators, intimate massagers, Womolia, Jasmine, Femblossom, Chandra, Isis, Julia Cole" />
+    <meta name="verify-v1" content="PWwl08CaM3oWkqZXsGrFFQ6gSaWNIpPQ++IlvNPqmME=" />
+    <meta name="language" content="en, us," />
+    <meta name="distribution" content="Global" />
+    <meta name="rating" content="General" />
+    <meta name="expires" content="Never" />
+    <meta name="robots" content="Index, follow all" />
+    <meta name="revisit-after" content="4 Days" />
+    <meta name="copyright" content="Emotional Bliss 2008" />  
+     <!-- Slideshow -->
+   		<link rel="stylesheet" href="engine/css/eb1.css" type="text/css" />
+		<link rel="stylesheet" href="engine/css/eb.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/tell_friend.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/tell_friend.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".trigger").click(function () {
+            $(".panel").toggle("fast");
+            $(this).toggleClass("active");
+            return false;
+        });
+    });
+</script>
+		<script src="engine/js/jquery.min.js" type="text/javascript"></script>
+		<script src="engine/js/eb.js" type="text/javascript"></script>
+      <!-- End Slideshow -->
+      <!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="/engine/css/style.css" />
+	<style type="text/css">a#vlb{display:none}</style>
+	
+	<script type="text/javascript" src="/engine/js/wowslider.js"></script>
+	
+
+    
+	<!-- End WOWSlider.com HEAD section --> 
+    <style>
+    #displaybox {
+	    z-index: 10000;
+	filter: alpha(opacity=90); /*older IE*/
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); /* IE */
+	-moz-opacity: .90; /*older Mozilla*/
+	-khtml-opacity: 0.9;   /*older Safari*/
+	opacity: 0.9;   /*supported by current Mozilla, Safari, and Opera*/
+	background-color:#000000;
+	position:fixed; top:0px; left:0px; width:100%; height:100%; color:#FFFFFF; text-align:center; vertical-align:middle;
+    }
+    a.closeTAF, #closeTAF {
+	    font-size:12px;
+	    background-image:url(/images2011/nav_arrow.png);
+	    background-repeat:no-repeat;
+	    background-position:center left;
+	    padding-left:5px;	
+	    color: #000000;
+	}
+
+    a.closeTAF:hover, #closeTAF:hover 
+    {
+        font-size:12px;
+	    background-image:url(/images2011/nav_arrow_hover.png);	
+	    background-repeat:no-repeat;
+	    background-position:center left;
+	    padding-left:5px;	
+	    color: red;
+	    text-decoration: none;
+	}
+	a.mofo{margin-left:30px;color:black;}
+	a.mofo:hover{color:black;}
+	
+    </style>
+    <script language="javascript" type="text/javascript">
+    function clicker(){
+	    var thediv=document.getElementById('displaybox');
+	    if (thediv.style.display == "none") {
+		    thediv.style.display = "";
+		    //thediv.innerHTML = "<table width='100%' height='100%'><tr><td align='center' valign='middle' width='100%' height='100%'><object classid='clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B' codebase='http://www.apple.com/qtactivex/qtplugin.cab' width='640' height='500'><object style='height: 390px; width: 640px'><param name='movie' value='http://www.youtube.com/v/JsuS--yvcCc?version=3&feature=player_detailpage&autoplay=1'><param name='allowFullScreen' value='true'><param name='allowScriptAccess' value='always'><embed src='http://www.youtube.com/v/JsuS--yvcCc?version=3&feature=player_detailpage&autoplay=1' type='application/x-shockwave-flash' allowfullscreen='true' allowScriptAccess='always' width='640' height='500'></object><br><br><a href='#' onclick='return clicker();'>Close Video</a></td></tr></table>";
+		    thediv.innerHTML = "<table width='100%' height='100%'><tr><td align='center' valign='middle' width='100%' height='100%'><iframe width='640' height='500' src='http://www.youtube.com/embed/21SczuPWzuc?autoplay=1&rel=0' frameborder='0' allowfullscreen></iframe><br><br><a href='#' onclick='return clicker();'><img border='0' src='/images/close.png'><br>Close Video</a></td></tr></table>";
+		} else {
+		    thediv.style.display = "none";
+		    thediv.innerHTML = '';
+	    }
+	    return false;
+	}
+	function clicker2() {
+	    var thediv = document.getElementById('displaybox');
+	    if (thediv.style.display == "none") {
+	        thediv.style.display = "";
+	        //thediv.innerHTML = "<table width='100%' height='100%'><tr><td align='center' valign='middle' width='100%' height='100%'><object classid='clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B' codebase='http://www.apple.com/qtactivex/qtplugin.cab' width='640' height='500'><object style='height: 390px; width: 640px'><param name='movie' value='http://www.youtube.com/v/JsuS--yvcCc?version=3&feature=player_detailpage&autoplay=1'><param name='allowFullScreen' value='true'><param name='allowScriptAccess' value='always'><embed src='http://www.youtube.com/v/JsuS--yvcCc?version=3&feature=player_detailpage&autoplay=1' type='application/x-shockwave-flash' allowfullscreen='true' allowScriptAccess='always' width='640' height='500'></object><br><br><a href='#' onclick='return clicker();'>Close Video</a></td></tr></table>";
+	        thediv.innerHTML = "<table width='100%' height='100%'><tr><td align='center' valign='middle' width='100%' height='100%'><iframe width='320' height='80' src='/audio/EB Front Page Audio.mp3' frameborder='0' allowfullscreen></iframe><br><br><a href='#' onclick='return clicker2();'><img border='0' src='/images/close.png'><br>Close Player</a></td></tr></table>";
+	    } else {
+	        thediv.style.display = "none";
+	        thediv.innerHTML = '';
+	    }
+	    return false;
+	}
+	function clickerAT() {
+	    var thediv = document.getElementById('displaybox');
+	    if (thediv.style.display == "none") {
+	        thediv.style.display = "";
+	        thediv.innerHTML = "<table width='100%' height='100%'><tr><td align='center' valign='middle' width='100%' height='100%'><iframe width='640' height='500' src='http://www.youtube.com/v/lXlx4SLVPIQ?autoplay=1&rel=0' frameborder='0' allowfullscreen></iframe><br><br><a href='#' onclick='return clickerAT();'><img border='0' src='/images/close.png'><br>Close Player</a></td></tr></table>";
+	    } else {
+	        thediv.style.display = "none";
+	        thediv.innerHTML = '';
+	    }
+	    return false;
+	}
+	function playaudio(fn) {
+	    var thediv = document.getElementById('displaybox');
+	    if (thediv.style.display == "none") {
+	        thediv.style.display = "";
+	        //thediv.innerHTML = "<table width='100%' height='100%'><tr><td align='center' valign='middle' width='100%' height='100%'><object classid='clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B' codebase='http://www.apple.com/qtactivex/qtplugin.cab' width='640' height='500'><object style='height: 390px; width: 640px'><param name='movie' value='http://www.youtube.com/v/JsuS--yvcCc?version=3&feature=player_detailpage&autoplay=1'><param name='allowFullScreen' value='true'><param name='allowScriptAccess' value='always'><embed src='http://www.youtube.com/v/JsuS--yvcCc?version=3&feature=player_detailpage&autoplay=1' type='application/x-shockwave-flash' allowfullscreen='true' allowScriptAccess='always' width='640' height='500'></object><br><br><a href='#' onclick='return clicker();'>Close Video</a></td></tr></table>";
+	        thediv.innerHTML = "<table width='100%' height='100%'><tr><td align='center' valign='middle' width='100%' height='100%'><iframe width='320' height='80' src='/audio/" + fn + ".mp3' frameborder='0' allowfullscreen></iframe><br><br><a href='#' onclick='return clicker2();'><img border='0' src='/images/close.png'><br>Close Player</a></td></tr></table>";
+	    } else {
+	        thediv.style.display = "none";
+	        thediv.innerHTML = '';
+	    }
+	    return false;
+	}
+    </script>
+    <asp:ContentPlaceHolder id="contentTop" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="sm1" runat="server"></asp:ScriptManager>
+        <asp:HiddenField ID="hidL" runat="server" />
+        <asp:HiddenField ID="hidS" runat="server" />
+        <div id="displaybox" style="display: none;"></div>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td align="center" style="background-image:url(/images/tile_topbar.png); background-repeat:repeat-x;">                
+                    <!--Main Content Table-->                
+                    <table width="960px" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td>
+                                <!--Main Navigation-->
+                                <table width="100%" height="55" border="0" cellspacing="0" cellpadding="0">
+                                    <tr height="55">
+                                        <td width="222" align="left"><a href="/newHomeIntro.aspx"><img src="/images/topbar_logo.png" alt="emotional bliss" width="197" height="23" border="0"></a></td>
+                                        <td align="left">
+                                        <asp:DataList ID="dlMenu" runat="server" HorizontalAlign="Left" Height="41" RepeatDirection="Horizontal" GridLines="none" OnItemDataBound="dlMenu_itemDataBound" SelectedItemStyle-CssClass="">
+                                            <ItemTemplate>
+                                                <asp:Label ID="lblSpacePre" runat="server" Text="&nbsp;"></asp:Label>
+                                                <asp:HyperLink ID="lnkMenu" CssClass="mainNav" runat="server" Text='<%# Eval("menuname") %>' NavigateUrl='<%# Eval("url") %>'></asp:HyperLink>
+                                                <asp:HiddenField ID="hidAction" runat="server" Value='<%# lCase(Eval("action")) %>' />
+                                                <asp:Label ID="lblSpaceAft" runat="server" Text="&nbsp"></asp:Label>|
+                                            </ItemTemplate>
+                                        </asp:DataList>
+                                        <!--a class="mainNav" href="/homeIntro.aspx">Home</a> | <a class="mainNav" href="/shopIntro.aspx">Online Shop</a> | <a class="mainNav" href="/sexologistsIntro.aspx">Experts</a> | <a class="mainNav" href="/blog/category/intimate-massager-reviews/">Reviews</a> |  | <a class="mainNav" href="/media.aspx">Press</a> | <a class="mainNav" href="/static.aspx?p=introduction&m=b2b">B2B</a> | <a class="mainNav" href="/termsIntro.aspx">Legal</a-->
+                                        </td>
+                                  
+                                        <td>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td width="40"><a href="/shop/basket.aspx"><img src="/images/icon_basket.png" width="18" height="17" border="0" alt="Shopping Basket"></a></td>
+                                                <td style="font-size:10px;">Items<br>
+                                                  <asp:Label ID="lblTopItems" runat="server">0</asp:Label></td>
+                                                <td style="font-size:10px;">Total<br>
+                                                  <asp:Label ID="lblTopCurrency" runat="server">£</asp:Label><asp:Label ID="lblTopOrderTotal" runat="server">0.00</asp:Label></td>
+                                                <td align="right"><a class="mainNav" href="/shop/basket.aspx">Go to Checkout</a></td>
+                                              </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!--Secondary Navigation-->
+                        <tr>
+                            <td height="30">
+                                <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td style="background-image:url(images/line_dashHorizontal.gif); background-position:bottom; background-repeat:repeat-x; font-size:9px;">
+                                                <asp:Image ID="imgCurrentFlag" runat="server" AlternateText="flag" BorderColor="Black" BorderWidth="0" Width="16" Height="11" onLoad="imgCurrentFlag_load" />&nbsp;
+                                                <asp:Label ID="lblCurrentCountryName" runat="server"></asp:Label>
+                                                <asp:HyperLink ID="lnkChangeCountry" runat="server" Text="Change" Font-Underline="true" NavigateUrl="http://www.emotionalbliss.com/countryselect.aspx"></asp:HyperLink>&nbsp;&nbsp;
+                                        </td>
+                                        <td height="30" align="right" style="background-image:url(images/line_dashHorizontal.gif); background-position:bottom; background-repeat:repeat-x; font-size:9px;">                            
+                                            <a href="/shop/basket.aspx">Shopping Basket</a> |   <a href="/ebcontact.aspx">Contact Us</a> |   <a href="/static.aspx?p=newsletter&m=home">Join Our Mailing List</a> |   <a href="/traceOrder.aspx">Track Your Order</a>                            
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-bottom:50px;">                            
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td width="230" valign="top" runat="server" id="tdLeftMenu" align="left">
+                                            <!-- SideMenu-->                        
+                                            <div id="RoundedCornerContent">
+                                                <asp:Literal ID="litTopMenu" runat="server"></asp:Literal>
+                                                <asp:ContentPlaceHolder id="ContentLeftMenu" runat="server">                                                
+                                                </asp:ContentPlaceHolder>
+                                            </div>
+                                        </td>
+                                        <td valign="top" style="padding-left:20px; padding-top:00px; line-height:22px;">        
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td valign="top" align="left">
+                                                <div class="panel">
+                                                    <h3>
+                                                        Why not tell a friend and we'll send them a <asp:Label ID="lblDiscountAmount" runat="server">£5</asp:Label> discount voucher</h3>
+                                                    <br />
+                                                    <br />
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td>
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td width="100" valign="top">
+                                                                            Your Name:
+                                                                        </td>
+                                                                        <td valign="top">
+                                                                            <label for="YourName">
+                                                                            </label>
+                                                                            <asp:TextBox ID="txtYourName" runat="server" MaxLength="50" ValidationGroup="free" style="margin-bottom:5px;"></asp:TextBox><br />
+                                                                            <asp:RequiredFieldValidator id="reqYourName" runat="server" ControlToValidate="txtYourName" Display="Dynamic" ErrorMessage="* Required field" ForeColor="Red" ValidationGroup="free"></asp:RequiredFieldValidator>
+                                                                            <br /><br />
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td>
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td width="100" valign="top">
+                                                                            Friends Name:
+                                                                        </td>
+                                                                        <td valign="top">
+                                                                            <asp:TextBox ID="txtFriendsName" runat="server" MaxLength="50" ValidationGroup="free"></asp:TextBox><br />
+                                                                            <asp:RequiredFieldValidator id="reqFriendsName" runat="server" ControlToValidate="txtFriendsName" Display="Dynamic" ErrorMessage="* Required field" ForeColor="Red" ValidationGroup="free"></asp:RequiredFieldValidator>
+                                                                            <br /><br />
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td width="100" valign="top">
+                                                                            Your eMail:
+                                                                        </td>
+                                                                        <td valign="top">
+                                                                            <asp:TextBox ID="txtYourEmail" runat="server" MaxLength="100" ValidationGroup="free"></asp:TextBox><br />
+                                                                            <asp:RequiredFieldValidator id="reqYourEmail" runat="server" ControlToValidate="txtYourEmail" Display="Dynamic" ErrorMessage="* Required field" ForeColor="Red" ValidationGroup="free"></asp:RequiredFieldValidator>
+                                                                            <asp:RegularExpressionValidator ID="regYourEmail" runat="server" ControlToValidate="txtYourEmail" Display="Dynamic" ErrorMessage="* Invalid email address" ValidationGroup="free" ForeColor="Red" ValidationExpression="^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*\.(([0-9]{1,3})|([a-zA-Z]{2,3})|(aero|coop|info|museum|name))$"></asp:RegularExpressionValidator>
+                                                                            <br /><br />
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td>
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td width="100" valign="top">
+                                                                            Friends eMail:
+                                                                        </td>
+                                                                        <td valign="top">
+                                                                            <asp:TextBox ID="txtFriendsEmail" runat="server" MaxLength="100" ValidationGroup="free"></asp:TextBox><br />
+                                                                            <asp:RequiredFieldValidator id="reqFriendsEmail" runat="server" ControlToValidate="txtFriendsEmail" Display="Dynamic" ErrorMessage="* Required field" ForeColor="Red" ValidationGroup="free"></asp:RequiredFieldValidator>
+                                                                            <asp:RegularExpressionValidator ID="regFriendsEmail" runat="server" ControlToValidate="txtFriendsEmail" Display="Dynamic" ErrorMessage="* Invalid email address" ValidationGroup="free" ForeColor="Red" ValidationExpression="^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*\.(([0-9]{1,3})|([a-zA-Z]{2,3})|(aero|coop|info|museum|name))$"></asp:RegularExpressionValidator>
+                                                                            <br /><br />
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" width="100" valign="top">
+                                                                            Message:
+                                                                        </td>
+                                                                        <td valign="top">
+                                                                            <asp:TextBox ID="txtMessage" Width="150" Height="100" runat="server" TextMode="MultiLine" ValidationGroup="free"></asp:TextBox>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td valign="bottom" align="right">
+                                                                <table border="0" cellspacing="0" cellpadding="0" class="">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <asp:LinkButton ID="lnkSend" runat="server" CssClass="SendFriend" OnClick="lnkSend_click" ValidationGroup="free"></asp:LinkButton><br />
+                                                                            <asp:Label ID="lblSentOK" runat="server"></asp:Label><br />
+                                                                        </td>
+                                                                        <td width="40">&nbsp;</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div id="" style="width:120px; margin-left:6px;">
+                                                                                <a href="" style="color: #000000; margin-left: 30px;">Close window</a>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td width="40">&nbsp;</td>
+                                                                    </tr>
+                                                                </table>
+                                                                
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    
+                                                    <div style="clear: both;">
+                                                    </div>
+                                                </div>
+                                                        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">            
+                                                        </asp:ContentPlaceHolder>
+                                                    </td>
+                                                </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="100" align="center" style="background-image: url(images/line_dashHorizontal.gif);
+                            background-repeat: repeat-x; font-size: 10px; padding-bottom: 100px;">
+                            <div id="footerSeal">
+                            </div>
+                            <%--<br>
+                            Copyright © 2002 - <%=Now().Year%> Emotional Bliss
+                            <br>
+                            Innovative pioneers in quality and sexual wellbeing<br />--%>
+                            <br />
+                            <ul class="nav">
+                                <li><a href="/ebcontact.aspx">Contact Us</a>&nbsp;&nbsp;&nbsp;
+                                    <a href="/privacy-statement.html">Privacy Policy</a>&nbsp;&nbsp;&nbsp;
+                                    <a href="/emotional-bliss-terms-and-conditions-of-site.html">Terms Policy</a></li>
+                            </ul>
+                            <br />
+                            <br/>
+                            <br/>
+                            Connect with us on: 
+                            <table border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+ 
+                                <td><img src="images/sm_facebook.png" width="30" height="30" border="0"></td>
+                                <td><img src="images/sm_twitter.png" width="30" height="30" border="0" /></td>
+                              </tr>
+                            </table>
+                            <br>
+                            <br/>
+                            Design by <a href="http://www.pixelputty.co.uk" target="_blank">PixelPutty Studios </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+    </table>
+                                        
+                                        
+
+    </form>
+    <script src="engine/js/eb1.js" type="text/javascript"></script>
+</body>
+</html>

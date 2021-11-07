@@ -1,0 +1,42 @@
+<%@ Master Language="VB" CodeFile="MasterPageAff.master.vb" Inherits="affiliates_MasterPageAff" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>EB Affiliates</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <center>
+        <table border="0">
+            <tr>
+                <td align="left">
+                    <table width="800">
+                        <tr>
+                            <td>
+                                You are logged in as <asp:Label ID="lblUsername" runat="server"></asp:Label>        
+                            </td>
+                            <td align="right">
+                                <asp:LinkButton ID="lnkLogout" runat="server" OnClick="lnkLogout_click" Text="Logout"></asp:LinkButton>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+                                </asp:contentplaceholder>        
+                            </td>
+                        </tr>
+                    </table>        
+                </td>
+            </tr>
+        </table>
+    </center>
+    </div>
+    </form>
+</body>
+</html>

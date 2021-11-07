@@ -1,0 +1,484 @@
+/* Common tags                 */
+/*-----------------------------		
+
+body 
+{
+    font-family:Verdana;
+    font-size:small;
+    color:#000000;
+    margin: 0;
+    padding: 0;
+	margin-right: 30;
+	text-align: left;
+ }
+		
+A:link      { color: #265CC0; text-decoration:none; }
+A:visited 	{ color: #265CC0; text-decoration:none; }
+A:active 	{ color: #265CC0;  cursor:pointer; text-decoration:none; }
+A:hover 	{ color: #4D9FE1;  cursor:pointer; text-decoration:"underline"; }
+		
+A.bodyLink:link     { color: #265CC0; text-decoration:none; font-weight:bold; }
+A.bodyLink:visited 	{ color: #265CC0; text-decoration:none; font-weight:bold; }
+A.bodyLink:active 	{ color: #265CC0;  cursor:pointer; text-decoration:none; font-weight:bold; }
+A.bodyLink:hover 	{ color: #4D9FE1;  cursor:pointer; text-decoration:underline; font-weight:bold; }
+		
+A.topLink:link      { color: #163A6E; text-decoration:none; font-weight: normal; }
+A.topLink:visited 	{ color: #163A6E; text-decoration:none; font-weight: normal; }
+A.topLink:active 	{ color: #163A6E;  cursor:pointer; text-decoration:none; font-weight: normal; }
+A.topLink:hover 	{ color: #4D9FE1;  cursor:pointer; text-decoration:underline; font-weight: normal; }
+		
+p
+{
+	line-height: 1.4em;
+}
+
+.title
+{
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: large;
+    font-weight: bold;
+    color: #6487DC;
+ }
+
+hr {
+	border: 0;
+	border-top: 2px solid #DE5C2F;
+	height: 2px;
+}
+
+hr.blueline
+{
+	border: 0;
+	border-top: 2px solid lightblue;
+	height: 1px;
+}
+
+img
+{
+	border-width: 0;
+}
+
+ul
+{
+	list-style-position: outside;
+	list-style-type: disc;
+	color: #000000;
+	font-family: verdana;
+}
+
+.menutextindent
+{
+    font-size: x-small;
+}
+*/
+/* Headings                    */
+/*-----------------------------
+h1
+{
+	font-size: large;
+	color: #265CC0
+}
+
+h2
+{
+	font-family: Verdana;
+	font-size: medium;
+	margin-top: 30;
+	color: #265CC0;
+	margin-bottom: -15;
+}
+	
+h3
+{
+	font-family: Verdana;
+	font-size: small;
+	margin-bottom: -15;
+	color: #265CC0;
+	padding-left: 15;
+}
+
+h1, h2, h3, h4
+{
+	margin: 0;
+	font-family: Verdana;
+}
+*/
+/* Tables                      */
+/*-----------------------------
+table
+{
+	font-size: 1em;
+}
+
+table.header
+{
+	  background-color:#2A48CE;
+	  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#3359EC, endColorstr=darkblue);
+}
+
+td.logo
+{
+	text-align: left;
+	width: 184px;
+}
+
+td.title 
+	{
+		text-align: center;
+		font-family: verdana;
+		font-size: x-large;
+		font-weight: bolder;
+		color: #FFFFFF;
+	}
+
+td.headerbar 
+{
+	background-image: url(Images/bar.jpg);
+	text-align: right;
+	height: 24px;
+}
+
+td.menu 
+{
+	background-color:#6487DC;
+	width: 184px;
+	height: 500px;
+	vertical-align: top;
+}
+
+td.footer
+{
+	margin-left: 30;
+	font-family: Verdana;
+	font-size:xx-small;
+	font-weight: normal;
+	color: #6487DC;
+	text-align: right;
+}
+
+.tnr
+{
+    FONT-SIZE: 11pt;
+    COLOR: #666666;
+    FONT-FAMILY: 'Times New Roman'
+}
+.verdana
+{
+    FONT-SIZE: 11pt;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana
+}
+.whitearial
+{
+    FONT-SIZE: 7pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Arial
+}
+.menuarial
+{
+    FONT-SIZE: 7pt;
+    COLOR: black;
+    FONT-FAMILY: Arial
+}
+.normtext_old
+{
+    FONT-SIZE: 12px;
+    COLOR: #333399;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Verdana, Tahoma, Arial
+}
+.normtext
+{
+    FONT-SIZE: 12px;
+    COLOR: #444444;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Arial, Verdana, Tahoma
+}
+.titletext
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12px;
+    COLOR: #0099ff;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Verdana, Tahoma, Arial
+}
+.darkbluetext
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12px;
+    COLOR: darkblue;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Arial, Verdana, Tahoma
+}
+.lightbluehead
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 14px;
+    COLOR: #5187bd;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Arial, Verdana, Tahoma
+}
+.blackbold
+{
+	font-weight: bold;
+	font-size: medium;
+	color: #000000;
+	FONT-FAMILY: Arial, Verdana, Tahoma
+}
+.basket
+{
+    FONT-SIZE: 9pt;
+    COLOR: #56575a;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Arial, Verdana, Tahoma
+}
+.basket A:link
+{
+    FONT-WEIGHT: 800;
+    COLOR: #56575a;
+    TEXT-DECORATION: underline
+}
+.basket A:visited
+{
+    FONT-WEIGHT: 800;
+    COLOR: #56575a;
+    TEXT-DECORATION: underline
+}
+.basket A:active
+{
+    FONT-WEIGHT: 800;
+    COLOR: #56575a;
+    TEXT-DECORATION: underline
+}
+.basket A:hover
+{
+    FONT-WEIGHT: 800;
+    COLOR: black;
+    TEXT-DECORATION: underline
+}
+.menuwhite A:link
+{
+    FONT-SIZE: 8pt;
+    COLOR: #ffffff;
+    TEXT-DECORATION: none
+}
+.menuwhite A:visited
+{
+    FONT-SIZE: 8pt;
+    COLOR: #ffffff;
+    TEXT-DECORATION: none
+}
+.menuwhite A:active
+{
+    FONT-SIZE: 8pt;
+    COLOR: #ffffff;
+    TEXT-DECORATION: none
+}
+.menuwhite A:hover
+{
+    FONT-SIZE: 8pt;
+    COLOR: #87ceeb;
+    TEXT-DECORATION: none
+}
+.menunorm A:link
+{
+    COLOR: #111111;
+    TEXT-DECORATION: none
+}
+.menunorm A:visited
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+.menunorm A:active
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+.menunorm A:hover
+{
+    COLOR: gray;
+    TEXT-DECORATION: none
+}
+.arial_old
+{
+    FONT-SIZE: 11pt;
+    COLOR: #666666;
+    FONT-FAMILY: Arial
+}
+.arial
+{
+    FONT-SIZE: 9pt;
+    COLOR: #56575a;
+    FONT-FAMILY: Arial, Verdana, Tahoma
+}
+.arial A:active
+{
+    FONT-WEIGHT: 800;
+    COLOR: #56575a
+}
+.arial A:link
+{
+    FONT-WEIGHT: 800;
+    COLOR: #56575a;
+    TEXT-DECORATION: none
+}
+.arial A:hover
+{
+    FONT-WEIGHT: 800;
+    COLOR: #5187bd
+}
+.arial A:visited
+{
+    FONT-WEIGHT: 800;
+    COLOR: #56575a
+}
+.arialblack
+{
+    FONT-SIZE: 9pt;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Verdana, Tahoma
+}
+.menunorm
+{
+    FONT-SIZE: 8pt;
+    COLOR: #111111;
+    FONT-FAMILY: Arial
+}
+.menuwhite
+{
+    FONT-SIZE: 8pt;
+    COLOR: white;
+    FONT-FAMILY: Arial
+}
+.menufaq
+{
+    FONT-SIZE: 8pt;
+    COLOR: #111111;
+    FONT-FAMILY: Arial
+}
+.menufaq A:link
+{
+    COLOR: #111111;
+    TEXT-DECORATION: none
+}
+.menufaq A:visited
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+.menufaq A:active
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+.menufaq A:hover
+{
+    COLOR: gray;
+    TEXT-DECORATION: none
+}
+.appform
+{
+    FONT-WEIGHT: 800;
+    FONT-SIZE: 9pt;
+    COLOR: black;
+    FONT-FAMILY: Arial
+}
+.appfields
+{
+    FONT-SIZE: 9pt;
+    COLOR: #56575a;
+    FONT-FAMILY: Arial
+}
+.adminsm
+{
+    FONT-SIZE: 9pt;
+    COLOR: #56575a;
+    FONT-FAMILY: Arial
+}
+.admin
+{
+    FONT-SIZE: 9pt;
+    COLOR: #56575a;
+    FONT-FAMILY: Arial
+}
+.admin A:link
+{
+    COLOR: #84cfef;
+    TEXT-DECORATION: none
+}
+.admin A:active
+{
+    COLOR: #84cfef;
+    TEXT-DECORATION: none
+}
+.admin A:hover
+{
+    COLOR: blue;
+    TEXT-DECORATION: none
+}
+.admin A:visited
+{
+    COLOR: #84cfef;
+    TEXT-DECORATION: none
+}
+.red
+{
+    FONT-SIZE: 9pt;
+    COLOR: red;
+    FONT-FAMILY: Arial
+}
+red A:link
+{
+    COLOR: #84cfef;
+    TEXT-DECORATION: none
+}
+red A:active
+{
+    COLOR: #84cfef;
+    TEXT-DECORATION: none
+}
+red A:hover
+{
+    COLOR: blue;
+    TEXT-DECORATION: none
+}
+red A:visited
+{
+    COLOR: #84cfef;
+    TEXT-DECORATION: none
+}
+.adminalt
+{
+    FONT-SIZE: 9pt;
+    COLOR: #56575a;
+    FONT-FAMILY: Arial
+}
+.adminalt A:active
+{
+    COLOR: #666666;
+    TEXT-DECORATION: none
+}
+.adminalt A:hover
+{
+    COLOR: blue;
+    TEXT-DECORATION: none
+}
+.adminalt A:link
+{
+    COLOR: #666666;
+    TEXT-DECORATION: none
+}
+.adminalt A:visited
+{
+    COLOR: #666666;
+    TEXT-DECORATION: none
+}
+DIV.divman
+{
+	width:80;
+	height:100;
+	overflow:scroll;
+}
+*/

@@ -1,0 +1,1 @@
+<%@ Page Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="componentHistoryView.aspx.vb" Inherits="maintenance_componentHistoryView" title="Untitled Page" %>

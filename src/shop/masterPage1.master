@@ -1,0 +1,115 @@
+<%@ Master Language="VB" CodeFile="MasterPage1.master.vb" Inherits="Shop_MasterPage1"%>
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="atlas" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <style>
+        td.smfont  {font-size:8pt;}
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <atlas:ScriptManager ID="sm1" runat="server" EnablePartialRendering="true">
+    </atlas:ScriptManager>
+    <div>
+        <table border="0" width="800">
+            <tr>
+                <td colspan="3" valign="middle" align="center">
+                    TOP HEADER
+                </td>
+            </tr>
+            <tr>
+                <td width="200" valign="top">
+                    <asp:DropDownList ID="drpMainCountry" runat="server" DataSourceID="SqlCountry" DataTextField="countryName" DataValueField="countryCode" OnDataBound="drpMainCountry_dataBound" AutoPostBack="true" OnSelectedIndexChanged="drpMainCountry_selectedIndexChanged">
+                    </asp:DropDownList>
+                </td>
+                <td width="600">
+                    <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+                    </asp:contentplaceholder>
+                </td>
+                <td id="tdBasket" runat="server" width="160" valign="top" visible="false">
+                    <table>
+                        <tr>
+                            <td width="160" align="center">
+                                Shopping Basket
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="160">
+                                <table border="1" width="100%" rules="none" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td>
+                                            <table border="0" cellpadding="6" cellspacing="0" width="100%">
+                                                <tr>
+                                                    <td width="100%">
+                                                        <asp:GridView ID="gvBasket" runat="server" Font-Size="XX-Small" BorderWidth="0" AutoGenerateColumns="false" ShowHeader="false" ShowFooter="false" Width="100%">
+                                                            <Columns>
+                                                                <asp:TemplateField>
+                                                                    <ItemTemplate>
+                                                                        <asp:ImageButton ID="imgDelete" runat="server" ImageUrl="~/images/x.gif" />
+                                                                    </ItemTemplate>
+                                                                </asp:TemplateField>
+                                                                <asp:HyperLinkField DataTextField="Name" DataNavigateUrlFields="id" DataNavigateUrlFormatString="product.aspx?id={0}" ItemStyle-Width="60%" />
+                                                                <asp:BoundField />
+                                                                <asp:BoundField DataField="Price" DataFormatString="{0:D2}" />
+                                                                <asp:TemplateField>
+                                                                    <ItemTemplate>
+                                                                        x
+                                                                    </ItemTemplate>
+                                                                </asp:TemplateField>
+                                                                <asp:BoundField DataField="Qty" ItemStyle-HorizontalAlign="right" />
+                                                                <asp:BoundField />
+                                                            </Columns>
+                                                        </asp:GridView>                                                           
+                                                    </td>
+                                                </tr>
+                                            </table>
+      
+                                        </td>
+                                    </tr>
+                                    <tr><td width="100%" height="4"><hr /></td></tr>
+                                    <tr>
+                                        <td width="100%">
+                                            <table border="0" cellpadding="6" cellspacing="0" width="100%">
+                                                <tr>
+                                                    <td>
+                                                        <asp:label ID="lblT" runat="server" Font-Size="XX-Small" Text="Total:"></asp:label>
+                                                        <br />
+                                                        <asp:HyperLink ID="lnkCheckout" runat="server" Text="Checkout" Font-Bold="true" NavigateUrl="basket.aspx"></asp:hyperlink>
+                                                    </td>
+                                                    <td align="right" valign="top">
+                                                        <asp:Label ID="lblBasketTotal" runat="Server" Font-Size="XX-Small"></asp:Label>
+                                                    </td>
+                                                </tr>
+                                            </table>   
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="100%">
+                                            <hr />
+                                        </td>
+                                    </tr>
+                                </table>                                
+                            </td>
+                        </tr>
+                    </table>
+                    <asp:ContentPlaceHolder ID="cphBasket" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <asp:SqlDataSource ID="SqlCountry" runat="server" SelectCommand="procCountrySelect" SelectCommandType="StoredProcedure" ConnectionString="<%$ ConnectionStrings:connectionString %>">
+    </asp:SqlDataSource>
+    
+    </form>
+</body>
+</html>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCompleteOrder" xml:space="preserve">
+    <value>Complete Order</value>
+    <comment>Button Text</comment>
+  </data>
+  <data name="btnLookupAddress" xml:space="preserve">
+    <value>Lookup Address</value>
+    <comment>Button Text</comment>
+  </data>
+  <data name="btnViewBilling" xml:space="preserve">
+    <value>Click to View Billing Address</value>
+    <comment>Text</comment>
+  </data>
+  <data name="btnViewShipping" xml:space="preserve">
+    <value>Click to View Shiping Address</value>
+    <comment>Text</comment>
+  </data>
+  <data name="drpFemale" xml:space="preserve">
+    <value>Female</value>
+    <comment>Dropdown Text</comment>
+  </data>
+  <data name="drpMale" xml:space="preserve">
+    <value>Male</value>
+    <comment>Dropdown Text</comment>
+  </data>
+  <data name="drpSelect" xml:space="preserve">
+    <value>Select...</value>
+    <comment>Dropdown Text</comment>
+  </data>
+  <data name="errorInvalid" xml:space="preserve">
+    <value>Invalid</value>
+    <comment>Text</comment>
+  </data>
+  <data name="errorRequired" xml:space="preserve">
+    <value>Required</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblAccount" xml:space="preserve">
+    <value>Account Order</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblAccountNo" xml:space="preserve">
+    <value>Account No:</value>
+    <comment>Text NL/BEOnly</comment>
+  </data>
+  <data name="lblAddress" xml:space="preserve">
+    <value>Address:</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblBillingDetails" xml:space="preserve">
+    <value>Billing Address</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblCardDetails" xml:space="preserve">
+    <value>Credit Card Details -</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblCardNo" xml:space="preserve">
+    <value>Card No:</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblCardType" xml:space="preserve">
+    <value>Card Type:</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblChkCC" xml:space="preserve">
+    <value>Credit Card</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblCountry" xml:space="preserve">
+    <value>Country:</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblCV2" xml:space="preserve">
+    <value>Security Code:</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblCV2Exp" xml:space="preserve">
+    <value>Last 3 digits on the back of your card</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblDeliverTo" xml:space="preserve">
+    <value>Deliver to this address  ?</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblDOB" xml:space="preserve">
+    <value>Date of Birth:</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblEmail" xml:space="preserve">
+    <value>Email:</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblEndDate" xml:space="preserve">
+    <value>End Date:</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblGender" xml:space="preserve">
+    <value>Gender:</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblHouseNo" xml:space="preserve">
+    <value>House/Flat name&lt;br /&gt;or number:</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblHowPay" xml:space="preserve">
+    <value>How would you like to pay for your goods:</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblIDeal" xml:space="preserve">
+    <value>iDeal Order</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblIssueNo" xml:space="preserve">
+    <value>Issue no:</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblName" xml:space="preserve">
+    <value>Name:</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblPleaseWait" xml:space="preserve">
+    <value>Please Wait</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblPost" xml:space="preserve">
+    <value>Cheque/Postal Order</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblPostcode" xml:space="preserve">
+    <value>Postcode:</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblShippingAddress" xml:space="preserve">
+    <value>Shipping address -</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblStartDate" xml:space="preserve">
+    <value>Start Date:</value>
+    <comment>Text</comment>
+  </data>
+  <data name="lblSwitchOnly" xml:space="preserve">
+    <value>(Switch only)</value>
+    <comment>Text</comment>
+  </data>
+  <data name="radNo" xml:space="preserve">
+    <value>No</value>
+    <comment>Radio Text</comment>
+  </data>
+  <data name="radYes" xml:space="preserve">
+    <value>Yes</value>
+    <comment>Radio Text</comment>
+  </data>
+</root>

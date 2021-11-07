@@ -1,0 +1,586 @@
+/* ---------- General ---------- */
+body {
+	margin:0px;
+/*	margin:10px;
+	text-align:center;
+*/
+	}
+body, td, th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px
+	}
+a {
+	font-family: Verdana, Helvetica, sans-serif; 
+	color : #666666; 
+	text-decoration:underline
+	}
+a:hover {
+	color:#000000;
+	text-decoration:none
+	}
+form {
+	display:inline
+	}
+select, input {
+	font-size: 10px;color:#222222
+	}
+
+/* ---------- Layout  ---------- */
+#container {
+	width:780px;
+	margin:0px auto;
+	border:1px solid #bbbbbb
+	}
+#maintable {
+	border-top:1px dotted #dddddd;
+	border-bottom:1px dotted #dddddd;
+	padding:5px 0px;
+	width:100%
+	}
+#mainleftnav {
+	width:auto;
+	padding-left:5px
+	}
+#mainspacer {
+	width:10px
+	}
+#maincontent {
+	width:600px;
+	vertical-align:top
+	}
+
+/* ---------- Popups ---------- */
+.popupTitle {
+	background-color:#86ADE1
+	}
+#popupTitle h3 {
+	}
+
+/* ---------- Index Page ---------- */
+#enginemain {
+	background-image:url(/images/v2/wl/cb/engine_bg.jpg); 
+	background-repeat:no-repeat;
+	width:390px; 
+	height:230px
+	}
+#offers .country {
+	background:transparent url(/images/v2/wl/cb/offers_bg.jpg) top right no-repeat;
+	font-weight:bold
+	}
+#greatOffers .header {
+	color:#1a3d7d; 
+	font-weight:bold;
+	background-color:#ffffff
+	}
+#greatOffers .morelink, #offers .morelink {
+	color:#ff6600; 
+	text-decoration:none
+	}
+#greatOffers .morelink:hover, #offers .morelink:hover {
+	text-decoration:underline
+	}
+#partners {
+	border:1px solid #9C9A9C
+	}
+#partners .header {
+	color:#666666; 
+	background-color:#ffffff;
+	font-weight:bold; 
+	font-size:13px
+	}
+
+/* ---------- Step 1 ---------- */
+.cardetails {
+	border:1px solid #999999;
+	width:575px;
+	text-align:left;
+	background:transparent url(/images/v2/wl/cb/back_strip.jpg) top right no-repeat
+	}
+.cardetails .cartype {
+	}
+.priceinfo {
+	float:right;
+	}
+.cartype .smltxtwhtmini {
+	color:#ffffff; 
+	}
+.cartype .boldtxtwht1 {
+	font-size: 14px; 
+	font-weight: bold;
+	color:#ffffff
+	}
+.maintable2 {
+	border:1px solid #999999;
+	height:20px;
+	width:577px;
+	text-align:left;
+	}
+#multiple {
+	border:1px solid #A4C2E6
+	}
+#multiple .warn {
+	color:#cc0000;
+	font-weight:bold
+	}
+.MapMainTableBorder {
+        border:1px solid #18387B;
+        border-top:0px;
+}
+.MapTableBorder{
+        border-right:1px solid #18387B;
+        border-top:1px solid #18387B;
+}
+.MapTabBorder{
+        border-bottom:1px solid #18387B;
+}
+.MapRightNavMainBG{
+        background-color:#18387B;
+}
+.MapRightNavSubBG{
+        background-color:#B5C7E7;
+}
+a.dest:link {font-weight:normal; color:#1C3877; margin-left:0px; font-size:10px;}
+a.dest:visited {font-weight:normal; color:#1C3877; margin-left:0px; font-size:10px;}
+a.dest:active {font-weight:normal; color:#1C3877; margin-left:0px; font-size:10px;}
+a.dest:hover {color:#FF6500;text-decoration:underline; margin-left:0px;font-weight:bold;}
+#right h6 {
+  font: 14px arial, sans-serif;
+  color: #000000;
+  border-bottom: 1px solid #18387B;
+  padding-bottom: 6px;
+  margin-bottom: 1em;
+}
+
+/* ---------- Step 2 ---------- */
+.tbl {
+	width:100%;
+	border:1px solid #999999
+	}
+.tbl td {
+	padding:4px
+	}
+.tbl .header {
+	background-color:#86ADE1;
+	font-weight:bold;
+	font-size:16px
+	}
+#currsel {
+	background-color:#999999;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:16px;
+	padding:3px
+	}
+.upgrd {
+	background-color:#A4C2E6;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:16px;
+	padding:3px;
+	display:block;
+	margin-bottom:0px
+	}
+.upgrade {
+	border:1px solid #999999;
+	margin-top:0px;
+	margin-bottom:0px;
+	border-top:none
+	}
+.upgradeTitle {
+	background-color:#DEDBD6;
+	font-size:16px;
+	font-weight:bold;
+	border-bottom:1px solid #999999;
+	}
+.upgradePrice {
+	font-weight:bold;
+	font-size:15px
+	}
+.upgradeMore {
+	color:#FF6808;
+	font-weight:bold;
+	font-size:14px
+	}
+#tnc {
+	width:100%;
+	border:1px solid #A7C1E2;
+	background-color:#E7ECF0;
+	padding:3px
+	}
+
+/* ---------- Step 3 ---------- */
+#priceDetails {
+	width:100%
+	}
+.lbl {
+	font-weight:bold;
+	text-align:right
+	}
+
+/* ---------- Common ---------- */
+#ebukLink {
+	display:block;
+	color:#21247B;
+	font-weight:bold;
+	text-decoration:none;
+	margin-bottom:10px
+	}
+.colorChangeRed {
+        color:#ff0000;
+	text-align:right
+        }
+.label{
+       color:#000000
+      }
+
+
+.button {
+	font-size:11px;
+	color:#000000;
+	background-color:#EEBC59;
+	border:1px solid #EAA250;
+	font-weight:bold;
+	cursor:pointer
+	}
+.headppl { 
+	font-size:16px; 
+	font-weight: bold; 
+	color:#291863; 
+	}
+.heading13 {
+	color:#AD2010; 
+	font-weight:bold; 
+	font-size: 13px
+	}
+.beprogbody {
+        border:1px solid #cccccc
+        }
+.beprogbody td {
+        padding:0px 15px
+        }
+
+.beprogtext, .beprogtext a {
+        color: #636363;
+        font-size: 11px;
+        text-decoration:none
+        }
+.beprogtext a:hover {
+        color:#000000
+        }
+.beprogheadselected, .beprogheadselected a {
+        color: #ffffff;
+        font-size: 11px;
+        text-decoration:none;
+        background-color:#fc9701
+        }
+.beprogheadselected a:hover {
+        color:#000000
+        }
+.mainpad {
+	padding-left:15px;
+	}
+.conbordbott {
+	border-bottom:1px dotted #999999;
+	}
+.journeySummary {
+	width:100%;
+	border:1px solid #cccccc
+	}
+#mainleftnav .journeySummary {
+	width:150px
+	}
+.journeySummary .heading {
+	font-size:16px;
+	font-weight:bold;
+	background-color:#f2f2f2;
+	border-bottom:1px solid #cccccc;
+	border-right:none;
+	color:#000000
+	}
+.journeySummary .footer {
+	border-top:1px solid #cccccc;
+	background-color:#ffffff;
+	color:#000000
+	}
+#modifysearch {
+	width:150px;
+	height:320px;
+	background:transparent url(/images/v2/wl/cb/modify_search.jpg) top center no-repeat
+	}
+.lftmodify {
+	font-size: 16px; 
+	color:#ffffff; 
+	font-weight:bold; 
+	}
+.alert {
+	color:red;
+	}
+#errorTable {
+	border:1px solid #cccccc;
+	color:#C80002;
+	font-weight:bold
+	}
+#errorTable #header {
+	background-color:#FFFFCD;
+	border-bottom:1px solid #cccccc;
+	color:black;
+	font-size:16px
+	}
+
+/*Vertical Spacers*/
+.vspc5{font-size:5px;}
+.vspc3{font-size:3px;}
+.vspc10{font-size:10px;}
+
+/*Horizontal Spacers*/
+.hspc5{width:5px}
+.hspc10{width:10px;}
+.hspc15{width:15px;}
+
+/* Separator for mini booking engine fields */
+.bm { margin-bottom:5px }
+
+.vab {
+	vertical-align:bottom;
+} 
+.vam {
+	vertical-align:middle;
+} 
+.vat {
+	vertical-align:top;
+} 
+.hal {
+	text-align:left;
+}
+.har {
+	text-align:right;
+}
+.imgspc5 {
+	margin: 0px 5px 0px 5px;
+	vertical-align: middle;
+	}
+
+#tailormade{background-image:url(http://192.168.204.110/images/UKv4/cars/img_tailormade.gif); height:100px;}
+
+/* ---------- Calendar ---------- */
+#calendar {
+	position:absolute; 
+	z-index:1; 
+	background-color:#f2f2f2; 
+	border:1px outset white;
+	font-family:Tahoma
+	}
+#calendar table {
+	font-size:11px
+	}
+#calendar th, #calendar #foot {
+	background-color:#86ADE1;
+	color:white;
+	font-weight:bold
+	}
+#calendar th a, #calendar #foot a {
+	color:white
+	}
+#calendar th a:hover, #calendar #foot a:hover {
+	color:black
+	}
+#calendar table td {
+	text-align:center;
+	border:1px solid #e2e2e2
+	}
+#calendar a {
+	text-decoration:none;
+	color:black
+	}
+#calendar a:hover {
+	color:gray
+	}
+#calendar .cross {
+	text-decoration:line-through
+	}
+
+/* ---------- Car Info Page ---------- */
+#ci {
+	margin:0px
+	}
+#carinfo #carname {
+	font-size:15px;
+	font-weight:bold
+	}
+#carinfo #carprice {
+	font-size:15px
+	}
+#carinfo #carprice span {
+	color:#ff6600;
+	font-weight:bold
+	}
+#carInfoHeader {
+	background-image:url(/images/v2/wl/cb/ci_header.jpg);
+	height:56px
+	}
+#carInfoFooter {
+	background-color:red;
+	font-weight:bold
+	}
+
+/* ---------- Voucher and Conf Email ---------- */
+#logoHolder {
+	}
+#topMsg {
+	text-align:right;
+	vertical-align:bottom;
+	color:#111111
+	}
+#ack {
+	font-weight:bold;
+	text-align:left;
+	width:50%;
+	background-color:#f2f2f2;
+	color:#333333;
+	border-bottom:1px solid #dddddd
+	}
+#ackMsg {
+	font-weight:bold;
+	text-align:right;
+	width:50%;
+	background-color:#f2f2f2;
+	color:#333333;
+	padding:2px;
+	border-bottom:1px solid #dddddd
+	}
+#startMsg {
+	}
+#details {
+	border:1px solid gray;
+	border-bottom:none
+	}
+.heading {
+	font-weight:bold;
+	border-bottom:1px solid gray;
+	border-right:1px solid gray;
+	background-color:#86ADE1;
+	color:#ffffff
+	}
+.details {
+	border-bottom:1px solid gray;
+	background-color:#f2f2f2;
+	}
+.divider {
+	background-color:#1f3b7c;
+	height:1px
+	}
+.vouchersubheading {
+	color:#AD2010;
+	font-weight:bold
+	}
+
+/* CSS for TNC */
+.tnc{color:#222222;text-decoration: none;font-weight:bold;}
+.tncgreen{font-size: 10px;color:#489D03;text-decoration: none;font-weight:bold;}
+.tncbackground{background-color:#fafafa;}
+.tnctitle{background-color:#86ADE1;font-size: 14px;color:#ffffff;font-weight:bold;text-align:center}
+#tncclose {color:#ffffff}
+.tncheading {font-size: 12px;color:#444444;text-decoration: none;font-weight:bold;}
+
+/* ---------- Navs ---------- */
+
+.leftnav {background-color: #8DAEE1;}
+.leftnavheading{font-family: verdana, Helvetica, sans-serif;font-size: 11px;font-weight: bold;color: #FFFFFF;background-color: #1E3E71;}
+.leftnavcontent {background-color: #E9ECFF;}
+.fntwhite{font-family: verdana, Helvetica, sans-serif;font-size: 10px;color: #FFFFFF;}
+.fntblack {font-family: verdana, Helvetica, sans-serif;font-size: 10px;color: #000000; font-weight:bold;}
+.linkkblack {font-family: verdana, Helvetica, sans-serif;font-size: 12px;color: #000000;text-decoration: none;}
+.linkwhite {font-family: verdana, Helvetica, sans-serif;font-size: 11px;color: #ffffff;font-weight:bold;text-decoration: none;}
+.linkkblacksml {font-family: verdana, Helvetica, sans-serif;font-size: 10px;color: #000000;text-decoration: none;}
+.header{background-color:#1e3e71;font-family: verdana, Helvetica, sans-serif;font-size: 11px;color: #ffffff;}
+.norep{background-repeat: no-repeat;}
+.bgwht{background-color:#FFFFFF;}
+.footer{background-color:#1e3e71;font-family: verdana, Helvetica, sans-serif;font-size: 10px;color: #ffffff;}
+.lnkblck { font-family: Arial; font-size: 11px;	color:#666666; text-decoration: none; }
+.lnkblck:hover { color:#000000 }
+.fntblue10{	font-family: Arial;	color:#43579c; font-size: 10px;}
+.error{color:#db1850;}
+.alert{color:#db1850;font-weight:bold;}
+
+/* Css for Vouchers */
+.vtdbackground
+{
+
+}
+.voucherheading
+{
+font-family: verdana, arial, sans-serif, helvetica;
+font-size: 11px;
+color: #FFFFFF;
+text-decoration: none;
+font-weight:bold;
+background-color:#1E3E71;
+height:25px;
+}
+.vouchersubheading
+{
+font-family: verdana, arial, sans-serif, helvetica;
+font-size: 10px;
+color: #21247B;
+text-decoration: none;
+font-weight:bold;
+}
+.vouchercontent
+{
+font-family: verdana, arial, sans-serif, helvetica;
+font-size: 10px;
+color: #165588;
+text-decoration: none;
+}
+.voucherdivider
+{
+background-color:#ccc;
+height:1px;
+}
+.voucherboldcontent
+{
+font-family: verdana, arial, sans-serif, helvetica;
+font-size: 10px;
+color: #165588;
+text-decoration: none;
+font-weight:bold;
+}
+.voucherconfigback
+{
+background-color:#999;
+}
+.voucherconfigboldtd
+{
+font-family: verdana, arial, sans-serif, helvetica;
+font-size: 10px;
+color: #000000;
+text-decoration: none;
+font-weight:bold;
+background-color:#EEF0F4;
+}
+.voucherconfigtd
+{
+font-family: verdana, arial, sans-serif, helvetica;
+font-size: 10px;
+text-decoration: none;
+background-color:#FFFFFF;
+}
+.voucherheaderback
+{
+background-color:#EEF0F4;
+font-family: verdana, arial, sans-serif, helvetica;
+font-size: 10px;
+color:#FFFFFF;
+}
+.configspltd
+{
+font-family: verdana, arial, sans-serif, helvetica;
+font-size: 10px;
+background:#EEF0F4
+}
+.voucherheaderbacktd
+{
+font-family: verdana, arial, sans-serif, helvetica;
+font-size: 10px;
+background:#EEF0F4
+}

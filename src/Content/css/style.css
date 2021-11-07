@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body, h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', sans-serif;
+}
+.eblogo{
+	padding: 0 20px;
+}
+.navbar-dark .navbar-nav .nav-item {
+    padding: 15px 12px;
+}
+.navbar-dark .navbar-nav .nav-item.pdnzr {
+    padding-top: 9px;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color:#fff;
+	padding:0;
+}
+.navbar-collapse {
+    background: #6ba0cc;
+    z-index: 999;
+}
+nav.bg-dark {
+    background-color: transparent !important;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    display: table;
+    padding: 15px 0;
+    width: 100%;
+}
+
+div#aboutus {
+   background: #f7f7f7;
+    background-image: url(../images/lines-middle@3x.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 60px 0 95px;
+    background-size: 85% auto;
+}
+div#products {
+    margin: 35px 0 70px;
+}
+div#products .productsdata {
+	margin-bottom:60px;
+}
+.headng h3 {
+    color: #8ec3b1;
+    font-size: 51px;
+    margin-bottom: 30px;
+}
+.nowitsblue .headng h3 {
+    color: #359cdf;
+}
+.descshort {
+    margin-bottom: 30px;
+}
+div#testimonials {
+    background-color: #6ba0cc;
+    padding-bottom: 35px;
+}
+.txtwhite,
+.txtwhite li{
+	color:#fff;
+}
+
+
+.card .carousel-item {
+  height: 200px;
+}
+.card .carousel-caption {
+  padding: 0;
+  right: 0;
+  left: 0;
+  color: #3d3d3d;
+}
+.card .carousel-caption h3 {
+  color: #3d3d3d;
+}
+.card .carousel-caption p {
+  line-height: 30px;
+}
+.card .carousel-caption .col-sm-3 {
+  display: flex;
+  align-items: center;
+}
+.card .carousel-caption .col-sm-9 {
+  text-align: left;
+}
+.navi {
+    text-align: center;
+}
+
+.navi a {
+    padding: 10px;
+    text-decoration:none;
+}
+.navi a:hover {
+    background: #000;
+}
+a > .ico {   
+    padding: 10px;
+    
+}
+a:hover > .ico {
+    background-color: transparent;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	vertical-align:middle;
+}
+.testdesc {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+.testdesc p:last-child {
+    margin-bottom: 0;
+}
+.testdesc i{
+    color: #6b9fce;
+}
+div#testibottom {
+    margin-bottom: 50px;
+}
+.advicedetl .card-header {
+    background: #8ec3b1;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.btn-outline-primary {
+    color: #8ec3b1;
+    border-color: #8ec3b1;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show > .btn-outline-primary.dropdown-toggle,
+.btn-outline-primary:hover {
+    background-color: #8ec3b1;
+    border-color: #8ec3b1;
+    color: #fff;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-outline-primary.dropdown-toggle:focus,
+.btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgb(142 195 177 / 50%);
+}
+div#calltoaction {
+    background: url(../images/subscribe-bg@2x.png);
+	padding: 48px 50px ;
+    margin: 50px 0;
+    border-radius: 10px;
+}
+div#calltoaction label{
+	color:#fff;
+}
+div#calltoaction form-group input{
+	padding:12px;
+}
+div#calltoaction .input-group {
+    background: #fff;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 1rem;
+}
+div#calltoaction .input-group input,
+div#calltoaction .input-group input:focus, div#calltoaction .input-group input:hover {
+    outline: none;
+    border: medium;
+    box-shadow: none;
+}
+div#calltoaction .input-group button {
+    background: #6ba0cc;
+    color: #fff;
+}
+div#calltoaction .input-group button:focus {
+    box-shadow: none;
+}
+.lastaccept input {
+    display: inline-block;
+    width: 27px;
+    margin-right: 5px;
+}
+.lastaccept label {
+    vertical-align: text-bottom;
+}
+.modal-dialog {
+    max-width: 50%;
+}
+div#footer {
+    background: #333333;
+    padding: 25px 0;
+    color: #fff;
+}
+div#footer ul {
+    display: inline-block;
+}
+div#footer ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+div#footer ul li a {
+    color: #fff;
+}
+
+.tabs-left, .tabs-right {
+  border: none;
+}
+.tabs-left {
+}
+.tabs-left>li, .tabs-right>li {
+  float: none;
+  border: none;
+  margin-bottom: 2px;
+}
+.tabs-left>li {
+    padding: 15px;
+    width: 100%;
+}
+.tabs-left>li.active {
+    background: #fff;
+    vertical-align: top;
+    border-radius: 10px 0 0 010px;
+}
+.tabs-left>li.active>a,
+.tabs-left>li.active>a:hover,
+.tabs-left>li>a:hover,
+.tabs-left>li.active>a:focus {
+    text-decoration: none;
+}
+
+.tabs-left>li>a {
+  border-radius: 4px 0 0 4px;
+  margin-right: 0;
+  display:block;
+    font-weight: bold;
+	color:#212529;
+}
+.tabs-left>li.active a {
+    color: #8fc2b1;
+}
+.tabs-right>li>a {
+  border-radius: 0 4px 4px 0;
+  margin-right: 0;
+}
+.vertical-text {
+  margin-top:50px;
+  border: none;
+  position: relative;
+}
+.vertical-text>li {
+  height: 20px;
+  width: 120px;
+  margin-bottom: 100px;
+}
+.vertical-text>li>a {
+  border-bottom: 1px solid #ddd;
+  border-right-color: transparent;
+  text-align: center;
+  border-radius: 4px 4px 0px 0px;
+}
+.vertical-text>li.active>a,
+.vertical-text>li.active>a:hover,
+.vertical-text>li.active>a:focus {
+  border-bottom-color: transparent;
+  border-right-color: #ddd;
+  border-left-color: #ddd;
+}
+.vertical-text.tabs-left {
+  left: -50px;
+}
+.vertical-text.tabs-left>li {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.tab-content {
+    background: #fff;
+    padding: 25px 50px;
+    border-radius: 0 10px 10px 10px;
+    min-height: 365px;
+
+}
+body {
+  /* Set "my-sec-counter" to 0 */
+  counter-reset: my-sec-counter;
+}
+span.putbfr:before {
+	position: absolute;
+    left: -30px;
+    background: #e2ecf5;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-top: 12px;
+    font-weight: bold;
+    top: 11px;
+    counter-increment: my-sec-counter;
+    content: counter(my-sec-counter) ". ";
+    font-size: 25px;
+
+}
+.btn-link:hover,
+.btn-link.focus, .btn-link:focus {
+    text-decoration: none;
+    box-shadow: none;
+}
+.btn-link {
+    color: #497fae;
+    font-size: 30px;
+}
+span.putbfr {
+    margin-left: 25px;
+}
+div#accordion .card {
+    box-shadow: 0px 0px 20px #ccc;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+div#accordion .card-header {
+    border-bottom: medium;
+    background: transparent;
+    padding: 20px 20px 0;
+}
+div#accordion .card-body {
+    padding-left: 60px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+}
+.callinfodata {
+	text-align: center;
+    column-count: 5;
+}
+.callinfodata .inrdatacall {
+	padding: 0 0px;
+    text-align: center;
+    vertical-align: top;
+}
